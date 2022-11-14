@@ -1,0 +1,76 @@
+info: ::1 - - [13/Nov/2022:18:38:57 +0000] "POST /api/v1/users/register HTTP/1.1" 500 213 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:18:40:42 +0000] "POST /api/v1/users/register HTTP/1.1" 500 213 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:18:52:17 +0000] "POST /api/v1/users/register HTTP/1.1" 201 273 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:18:54:04 +0000] "POST /api/v1/users/register HTTP/1.1" 201 275 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:18:56:49 +0000] "POST /api/v1/users/register HTTP/1.1" 500 59 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:18:57:42 +0000] "POST /api/v1/users/register HTTP/1.1" 500 59 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:18:58:38 +0000] "POST /api/v1/users/register HTTP/1.1" 500 162 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:19:00:20 +0000] "POST /api/v1/users/register HTTP/1.1" 500 97 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:19:01:34 +0000] "POST /api/v1/users/register HTTP/1.1" 201 282 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:19:06:35 +0000] "POST /api/v1/users/register HTTP/1.1" 500 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:19:11:58 +0000] "POST /api/v1/users/register HTTP/1.1" 500 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:19:14:41 +0000] "POST /api/v1/users/register HTTP/1.1" 500 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:19:15:12 +0000] "POST /api/v1/users/register HTTP/1.1" 500 162 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:19:16:59 +0000] "POST /api/v1/users/register HTTP/1.1" 500 81 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:19:17:26 +0000] "POST /api/v1/users/register HTTP/1.1" 500 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:19:18:02 +0000] "POST /api/v1/users/register HTTP/1.1" 500 84 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:19:22:03 +0000] "POST /api/v1/users/register HTTP/1.1" 500 162 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:19:26:15 +0000] "POST /api/v1/users/register HTTP/1.1" 500 162 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:19:34:30 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [13/Nov/2022:19:36:39 +0000] "POST /api/v1/users/register HTTP/1.1" 201 327 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:02:55:38 +0000] "POST /api/v1/users/login HTTP/1.1" 500 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:02:58:24 +0000] "POST /api/v1/users/login HTTP/1.1" 500 67 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:03:00:23 +0000] "POST /api/v1/users/login HTTP/1.1" 500 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:03:01:14 +0000] "POST /api/v1/users/login HTTP/1.1" 500 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:03:02:21 +0000] "POST /api/v1/users/login HTTP/1.1" 500 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:03:09:17 +0000] "POST /api/v1/users/register HTTP/1.1" 201 325 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:03:09:37 +0000] "POST /api/v1/users/login HTTP/1.1" 202 324 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:03:09:53 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:03:10:03 +0000] "POST /api/v1/users/login HTTP/1.1" 500 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:03:20:41 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:03:21:19 +0000] "POST /api/v1/users/login HTTP/1.1" 202 180 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:03:36:48 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:04:11:53 +0000] "POST /api/v1/users/login HTTP/1.1" 202 180 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:08:39:16 +0000] "POST /api/v1/users/login HTTP/1.1" 202 180 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:09:02:27 +0000] "POST /api/v1/users/login HTTP/1.1" 202 180 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:09:20:18 +0000] "POST /api/v1/users/login HTTP/1.1" 202 202 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:09:29:38 +0000] "POST /api/v1/users/login HTTP/1.1" 202 202 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Nov/2022:14:51:26 +0000] "POST /api/v1/users/register HTTP/1.1" 201 271 "-" "PostmanRuntime/7.29.2"
+

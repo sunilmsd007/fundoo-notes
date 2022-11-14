@@ -1,0 +1,354 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T13:41:23.473Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T13:41:23.534Z"}
+error: 
+    status - 500 
+    message - ReferenceError: message is not defined
+    at _callee2$ (E:\fundo-project\fundoo\src\controllers\/user.controller.js:36:16)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T13:41:31.882Z"}
+error: 
+    status - 500 
+    message - ReferenceError: message is not defined
+    at _callee2$ (E:\fundo-project\fundoo\src\controllers\/user.controller.js:36:16)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T13:42:31.425Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee5$ (E:\fundo-project\fundoo\src\services\/user.service.js:48:12)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T13:42:37.075Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T13:43:01.681Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T13:43:01.734Z"}
+error: 
+    status - 500 
+    message - ReferenceError: message is not defined
+    at _callee2$ (E:\fundo-project\fundoo\src\controllers\/user.controller.js:36:16)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T13:43:17.072Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee5$ (E:\fundo-project\fundoo\src\services\/user.service.js:48:12)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T13:43:23.206Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T13:43:55.710Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T13:43:55.770Z"}
+error: 
+    status - 500 
+    message - ReferenceError: message is not defined
+    at _callee2$ (E:\fundo-project\fundoo\src\controllers\/user.controller.js:36:16)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T13:44:09.225Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee5$ (E:\fundo-project\fundoo\src\services\/user.service.js:48:12)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T13:44:14.623Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T13:47:08.998Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T13:47:09.043Z"}
+error: 
+    status - 500 
+    message - ReferenceError: message is not defined
+    at _callee2$ (E:\fundo-project\fundoo\src\controllers\/user.controller.js:35:16)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T13:47:20.887Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T13:47:50.180Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T13:47:50.232Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T13:48:29.750Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T13:48:29.792Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T13:49:03.393Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T13:49:03.442Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T13:50:15.384Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T13:50:15.426Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee5$ (E:\fundo-project\fundoo\src\services\/user.service.js:48:12)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T13:50:28.838Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T13:50:56.774Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T13:50:56.817Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee5$ (E:\fundo-project\fundoo\src\services\/user.service.js:48:12)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T13:51:03.856Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T13:52:01.715Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T13:52:01.758Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee5$ (E:\fundo-project\fundoo\src\services\/user.service.js:48:12)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T13:52:11.008Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T13:52:46.929Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T13:52:46.971Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T14:00:56.334Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:00:56.378Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (E:\fundo-project\fundoo\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\fundo-project\fundoo\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\fundo-project\fundoo\node_modules\express\lib\response.js:278:15)
+    at _callee2$ (E:\fundo-project\fundoo\src\controllers\/user.controller.js:37:40)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:01:06.430Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (E:\fundo-project\fundoo\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\fundo-project\fundoo\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\fundo-project\fundoo\node_modules\express\lib\response.js:278:15)
+    at _callee2$ (E:\fundo-project\fundoo\src\controllers\/user.controller.js:37:40)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:01:13.595Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (E:\fundo-project\fundoo\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\fundo-project\fundoo\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\fundo-project\fundoo\node_modules\express\lib\response.js:278:15)
+    at _callee2$ (E:\fundo-project\fundoo\src\controllers\/user.controller.js:37:40)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:01:24.499Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T14:01:53.191Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:01:53.246Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T14:03:55.288Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:03:55.333Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (E:\fundo-project\fundoo\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\fundo-project\fundoo\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\fundo-project\fundoo\node_modules\express\lib\response.js:278:15)
+    at _callee2$ (E:\fundo-project\fundoo\src\controllers\/user.controller.js:37:40)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:04:04.550Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (E:\fundo-project\fundoo\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\fundo-project\fundoo\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\fundo-project\fundoo\node_modules\express\lib\response.js:278:15)
+    at _callee2$ (E:\fundo-project\fundoo\src\controllers\/user.controller.js:37:40)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:04:12.570Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T14:06:13.875Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:06:13.917Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee5$ (E:\fundo-project\fundoo\src\services\/user.service.js:44:13)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:06:20.819Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T14:07:25.635Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:07:25.673Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee5$ (E:\fundo-project\fundoo\src\services\/user.service.js:44:13)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:07:37.318Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T14:16:33.140Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:16:33.193Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee5$ (E:\fundo-project\fundoo\src\services\/user.service.js:44:13)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:16:41.271Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T17:25:14.447Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T17:25:14.484Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-13T18:28:31.982Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T18:28:32.025Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "obj" to Document() must be an object, got $2b$10$izeJ.XA9oNj2TiBavR9GHe30aMNHzrkq2NzoNib8xDqo19ZhtI5X6
+    at model.Document (E:\fundo-project\fundoo\node_modules\mongoose\lib\document.js:100:11)
+    at model.Model (E:\fundo-project\fundoo\node_modules\mongoose\lib\model.js:106:12)
+    at new model (E:\fundo-project\fundoo\node_modules\mongoose\lib\model.js:4911:15)
+    at E:\fundo-project\fundoo\node_modules\mongoose\lib\model.js:3157:22
+    at E:\fundo-project\fundoo\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at E:\fundo-project\fundoo\node_modules\mongoose\lib\model.js:3192:15
+    at E:\fundo-project\fundoo\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (E:\fundo-project\fundoo\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (E:\fundo-project\fundoo\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (E:\fundo-project\fundoo\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee$ (E:\fundo-project\fundoo\src\services\/user.service.js:7:27)
+    at tryCatch (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T18:29:07.937Z"}
