@@ -1964,3 +1964,5 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-11-14T17:53:57.810Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-14T17:54:48.741Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T17:54:48.785Z"}
