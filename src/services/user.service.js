@@ -1,6 +1,7 @@
 import { error } from 'winston';
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
 
 //register new user
 export const register = async (body) => {
@@ -18,7 +19,8 @@ export const login = async (body) => {
   if (data != null) {
     const result = await bcrypt.compare(body.password, data.password);
     if (result) {
-      return data;
+      var token = jwt.sign({ firstname: data.firstname, email: data.email, _id: data._id }, process.env.SECRET_KEY);
+      return token;
     }
     else {
       throw new Error("Invalid Password");

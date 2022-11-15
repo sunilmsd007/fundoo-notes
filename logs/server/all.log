@@ -1997,3 +1997,35 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-11-15T03:28:07.812Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-15T04:45:53.946Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T04:45:53.987Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (E:\fundo-project\fundoo-notes\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:22:23)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-15T04:46:07.699Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (E:\fundo-project\fundoo-notes\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:22:23)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-15T04:47:24.898Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-15T04:47:45.070Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T04:47:45.111Z"}
