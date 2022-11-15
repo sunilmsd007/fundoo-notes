@@ -16,7 +16,8 @@ export const register = async (body) => {
 export const login = async (body) => {
   const data = await User.findOne({ email: body.email });
   if (data != null) {
-    if (body.password == data.password) {
+    const result = await bcrypt.compare(body.password, data.password);
+    if (result) {
       return data;
     }
     else {
