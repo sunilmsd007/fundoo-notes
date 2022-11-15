@@ -17,3 +17,17 @@ export const getNotesById = async (id) => {
     const data = await Notes.findById(id);
     return data;
 }
+
+//update note
+export const updateNotesById = async (_id, body) => {
+    const data = await Notes.findOneAndUpdate(
+      {
+        _id
+      },
+      body,
+      {
+        new: true
+      }
+    );
+    return data;
+  };

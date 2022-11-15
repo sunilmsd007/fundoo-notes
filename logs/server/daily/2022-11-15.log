@@ -524,3 +524,7 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2022-11-15T13:51:32.663Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-15T14:15:10.355Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T14:15:10.389Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-15T14:16:44.877Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T14:16:44.917Z"}
