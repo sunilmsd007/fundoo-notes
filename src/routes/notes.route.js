@@ -17,4 +17,7 @@ router.get('/:_id', userAuth, notesController.getNotesById);
 //to update notes by id
 router.put('/:_id', userAuth, notesController.updateNotesById);
 
+//to update notes by id
+router.delete('/:_id', userAuth, notesController.deleteNotesById);
+
 export default router;

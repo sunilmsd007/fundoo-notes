@@ -2337,3 +2337,39 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2022-11-15T13:51:32.663Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee5$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:36:41)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.deleteNotesById (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:36:29)
+    at _callee5$ (E:\fundo-project\fundoo-notes\src\controllers\/notes.controller.js:88:25)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at deleteNotesById (E:\fundo-project\fundoo-notes\src\controllers\/notes.controller.js:86:29)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:24:5)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63737bb63fed3350d4428b5e 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-15T15:15:17.652Z"}
