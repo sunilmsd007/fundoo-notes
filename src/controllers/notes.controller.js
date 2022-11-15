@@ -19,3 +19,22 @@ import * as NoteService from '../services/notes.service';
       next(error);
     }
   };
+
+  /**
+ * Controller to get all notes available
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const getAllNotes = async (req, res, next) => {
+    try {
+      const data = await NoteService.getAllNotes();
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'All notes fetched successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
