@@ -50,3 +50,11 @@ info: ::1 - - [15/Nov/2022:11:44:54 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 21
 
 info: ::1 - - [15/Nov/2022:12:00:34 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 902 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [15/Nov/2022:13:48:16 +0000] "GET /api/v1/notes/63737bb63fed3350d4428b5e HTTP/1.1" 200 217 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:13:49:48 +0000] "GET /api/v1/notes/63737bb63fed3350d4428b5e HTTP/1.1" 200 217 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:13:51:32 +0000] "GET /api/v1/notes/63737bb63fed3350d4428b5 HTTP/1.1" 500 146 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:13:51:43 +0000] "GET /api/v1/notes/63737bb63fed3350d4428b5e HTTP/1.1" 200 217 "-" "PostmanRuntime/7.29.2"
+

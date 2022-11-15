@@ -2581,3 +2581,19 @@ info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-15T1
 info: Connected to the database. {"timestamp":"2022-11-15T11:44:10.426Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-15T12:00:22.804Z"}
 info: Connected to the database. {"timestamp":"2022-11-15T12:00:22.838Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-15T13:47:56.954Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T13:47:56.989Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-15T13:49:42.596Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T13:49:42.634Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-15T13:51:10.483Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T13:51:10.521Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63737bb63fed3350d4428b5" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63737bb63fed3350d4428b5 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-15T13:51:32.663Z"}

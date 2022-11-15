@@ -2327,3 +2327,13 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-11-15T11:13:31.075Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63737bb63fed3350d4428b5" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63737bb63fed3350d4428b5 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-15T13:51:32.663Z"}
