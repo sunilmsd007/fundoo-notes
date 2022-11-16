@@ -2641,3 +2641,13 @@ error:
    {"timestamp":"2022-11-15T15:15:17.652Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-15T15:16:02.797Z"}
 info: Connected to the database. {"timestamp":"2022-11-15T15:16:02.847Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-16T04:03:20.176Z"}
+info: Connected to the database. {"timestamp":"2022-11-16T04:03:20.232Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-16T04:32:44.477Z"}
+info: Connected to the database. {"timestamp":"2022-11-16T04:32:44.563Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-16T04:55:19.780Z"}
+info: Connected to the database. {"timestamp":"2022-11-16T04:55:19.823Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-16T05:06:59.887Z"}
+info: Connected to the database. {"timestamp":"2022-11-16T05:06:59.931Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-16T05:13:38.891Z"}
+info: Connected to the database. {"timestamp":"2022-11-16T05:13:38.962Z"}

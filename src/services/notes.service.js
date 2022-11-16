@@ -37,3 +37,18 @@ export const deleteNotesById = async (id) => {
     await Notes.findByIdAndDelete(id);
     return '';
   };
+
+  //Archive note
+export const archiveNote = async (_id, body) => {
+    var body = {isArchive:true};
+    const data = await Notes.findByIdAndUpdate(
+      {
+        _id
+      },
+      body,
+      {
+        new: true
+      }
+    );
+    return data;
+  };

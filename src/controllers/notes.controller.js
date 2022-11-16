@@ -78,7 +78,7 @@ export const updateNotesById = async (req, res, next) => {
   };
 
   /**
- * Controller to delete a node
+ * Controller to delete a note
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
@@ -90,6 +90,25 @@ export const deleteNotesById = async (req, res, next) => {
         code: HttpStatus.OK,
         data: [],
         message: 'Note deleted successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+    /**
+ * Controller to archive a note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const archiveNote = async (req, res, next) => {
+    try {
+      const data = await NoteService.archiveNote(req.params._id, req.body);
+      res.status(HttpStatus.ACCEPTED).json({
+        code: HttpStatus.ACCEPTED,
+        data: data,
+        message: 'Note Archived successfully'
       });
     } catch (error) {
       next(error);
