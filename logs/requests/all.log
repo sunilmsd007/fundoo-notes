@@ -1147,3 +1147,7 @@ info: ::1 - - [17/Nov/2022:13:22:27 +0000] "PUT /api/v1/notes/6375fed6565fc13204
 
 info: ::1 - - [17/Nov/2022:13:22:30 +0000] "PUT /api/v1/notes/6375fed6565fc1320415bbd5/isArchive HTTP/1.1" 202 279 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [17/Nov/2022:13:26:45 +0000] "PUT /api/v1/notes/6375fed6565fc1320415bbd5/isTrash HTTP/1.1" 202 277 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:13:26:48 +0000] "PUT /api/v1/notes/6375fed6565fc1320415bbd5/isTrash HTTP/1.1" 202 278 "-" "PostmanRuntime/7.29.2"
+
