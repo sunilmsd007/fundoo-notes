@@ -40,8 +40,8 @@ export const deleteNotesById = async (_id, userID) => {
 };
 
 //Archive note
-export const archiveNote = async (_id) => {
-    const noteData = await Notes.findById(_id);
+export const archiveNote = async (_id,userID) => {
+    const noteData = await Notes.findOne({_id:_id,userID:userID});
     let checkStatus = () => {
         if (noteData.isArchive == false) {
             return true
