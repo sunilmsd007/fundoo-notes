@@ -137,3 +137,5 @@ error:
    {"timestamp":"2022-11-17T09:32:04.952Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-17T09:39:20.381Z"}
 info: Connected to the database. {"timestamp":"2022-11-17T09:39:20.420Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-17T12:54:16.027Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T12:54:16.065Z"}

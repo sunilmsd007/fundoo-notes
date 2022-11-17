@@ -28,7 +28,7 @@ import * as NoteService from '../services/notes.service';
  */
 export const getAllNotes = async (req, res, next) => {
     try {
-      const data = await NoteService.getAllNotes();
+      const data = await NoteService.getAllNotes(req.body.userID);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
