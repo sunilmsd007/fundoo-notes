@@ -1,0 +1,48 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-17T03:06:12.598Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T03:06:12.654Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-17T06:47:05.272Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T06:47:05.309Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-17T07:24:28.543Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:24:28.591Z"}
+error: 
+    status - 500 
+    message - ReferenceError: id is not defined
+    at _callee6$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:44:39)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.archiveNote (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:42:25)
+    at _callee6$ (E:\fundo-project\fundoo-notes\src\controllers\/notes.controller.js:107:38)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at archiveNote (E:\fundo-project\fundoo-notes\src\controllers\/notes.controller.js:105:25)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/637468ac045bb22e64489f99/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T07:24:35.990Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-17T07:25:01.496Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:25:01.548Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-17T07:30:26.318Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:30:26.362Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-17T07:33:46.665Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:33:46.722Z"}
