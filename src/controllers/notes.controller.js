@@ -85,7 +85,7 @@ export const updateNotesById = async (req, res, next) => {
  */
 export const deleteNotesById = async (req, res, next) => {
     try {
-      await NoteService.deleteNotesById(req.params._id);
+      await NoteService.deleteNotesById(req.params._id,req.body.userID);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: [],
