@@ -49,7 +49,7 @@ export const archiveNote = async (_id) => {
         }
     }
     let status = checkStatus();
-    const data1 = await Notes.findByIdAndUpdate(
+    const data = await Notes.findByIdAndUpdate(
         {
             _id
         },
@@ -58,17 +58,25 @@ export const archiveNote = async (_id) => {
             new: true
         }
     );
-    return data1;
+    return data;
 };
 
 //trash a note
-export const trashNote = async (_id, body) => {
-    body = { isTrash: true };
+export const trashNote = async (_id) => {
+    const noteData = await Notes.findById(_id);
+    let checkStatus = () => {
+        if (noteData.isTrash == false) {
+            return true
+        } else {
+            return false
+        }
+    }
+    let status = checkStatus();
     const data = await Notes.findByIdAndUpdate(
         {
             _id
         },
-        body,
+        {isTrash:status},
         {
             new: true
         }
