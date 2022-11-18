@@ -2802,3 +2802,352 @@ info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-17T1
 info: Connected to the database. {"timestamp":"2022-11-17T13:20:35.160Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-17T13:26:37.128Z"}
 info: Connected to the database. {"timestamp":"2022-11-17T13:26:37.181Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-17T13:31:12.112Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T13:31:12.155Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'isArchive')
+    at checkStatus (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:46:22)
+    at _callee6$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:52:18)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6376018a5ae57c2654a89764/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T13:35:23.269Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'isArchive')
+    at checkStatus (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:46:22)
+    at _callee6$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:52:18)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375feef565fc1320415bbd7/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T13:37:26.051Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-17T13:38:07.111Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T13:38:07.190Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'isTrash')
+    at checkStatus (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:69:22)
+    at _callee7$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:75:18)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375feef565fc1320415bbd7/isTrash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T13:38:23.135Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-17T13:45:56.414Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T13:45:56.461Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T07:00:04.225Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T07:00:04.299Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T07:02:58.428Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T07:02:58.468Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T07:12:42.329Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T07:12:42.370Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T07:15:28.605Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T07:15:28.648Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T07:16:13.524Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T07:16:13.561Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T07:17:10.799Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T07:17:10.838Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (E:\fundo-project\fundoo-notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\fundo-project\fundoo-notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\fundo-project\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\controllers\/notes.controller.js:37:42)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-18T07:17:16.001Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T07:17:36.582Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T07:17:36.618Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T07:40:04.575Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T07:40:04.611Z"}
+error: 
+    status - 500 
+    message - TypeError: data.length is not a function
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:12:13)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-18T07:40:09.738Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T07:40:43.044Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T07:40:43.083Z"}
+error: 
+    status - 500 
+    message - Error: note not avaialable
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:16:15)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-18T07:40:46.626Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T07:42:21.521Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T07:42:21.608Z"}
+error: 
+    status - 500 
+    message - Error: No note is available with this userID
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:16:15)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-18T07:42:26.409Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T08:36:59.646Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T08:36:59.686Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T08:41:31.990Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T08:41:32.032Z"}
+error: 
+    status - 500 
+    message - Error: Note of this noteId is not available with this userID
+    at _callee3$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:27:15)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375feef565fc1320415bbd7 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-18T08:41:35.048Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T08:42:20.259Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T08:42:20.295Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T08:46:50.333Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T08:46:50.371Z"}
+error: 
+    status - 500 
+    message - Error: noteId is not available with this userID
+    at _callee4$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:47:15)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375feef565fc1320415bbd7 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-18T08:46:57.364Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'length')
+    at _callee5$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:54:12)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375feef565fc1320415bbd7 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-18T08:47:07.800Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T08:47:35.156Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T08:47:35.204Z"}
+error: 
+    status - 500 
+    message - Error: noteId is not available with this userID
+    at _callee5$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:58:14)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375feef565fc1320415bbd7 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-18T08:47:38.286Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'isArchive')
+    at checkStatus (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:66:22)
+    at _callee6$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:72:18)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375feef565fc1320415bbd7/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-18T08:50:18.651Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'isTrash')
+    at checkStatus (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:89:22)
+    at _callee7$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:95:18)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375feef565fc1320415bbd7/isTrash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-18T08:50:39.415Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (E:\fundo-project\fundoo-notes\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:24:28)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at notesValidator (E:\fundo-project\fundoo-notes\src\validators\/notes.validator.js:15:5)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\fundo-project\fundoo-notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at E:\fundo-project\fundoo-notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\fundo-project\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (E:\fundo-project\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\fundo-project\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-18T08:58:46.430Z"}
+error: 
+    status - 500 
+    message - Error: No note is available with this userID
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:16:15)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-18T08:59:17.391Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'isArchive')
+    at checkStatus (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:66:22)
+    at _callee6$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:72:18)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375feef565fc1320415bbd7/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-18T09:51:50.857Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T10:01:01.900Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T10:01:01.954Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T10:01:42.685Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T10:01:42.724Z"}
+error: 
+    status - 500 
+    message - Error: No note is available with this userID
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:16:15)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-18T10:01:47.304Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-18T10:03:30.138Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T10:03:30.187Z"}
+error: 
+    status - 500 
+    message - Error: noteId is not available with this userID
+    at _callee3$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:27:15)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375fed6565fc1320415bbd5 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-18T10:06:06.507Z"}

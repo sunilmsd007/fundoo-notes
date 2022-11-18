@@ -9,13 +9,24 @@ export const createNotes = async (body) => {
 //get all notes
 export const getAllNotes = async (userID) => {
     const data = await Notes.find({userID:userID});
-    return data;
+    if(data.length!=0)
+    {
+        return data;
+    }else{
+        throw new Error('No note is available with this userID');
+    }
+    
 }
 
 //get notes by id
 export const getNotesById = async (_id,userID) => {
     const data = await Notes.findOne({_id:_id,userID:userID});
-    return data;
+    if(data!=null){
+        return data;
+    }else{
+        throw new Error('noteId is not available with this userID');
+    }
+    
 }
 
 //update note
@@ -30,13 +41,22 @@ export const updateNotesById = async (_id, body) => {
             new: true
         }
     );
-    return data;
+    if(data!=null){
+        return data;
+    }else{
+        throw new Error('noteId is not available with this userID');
+    }
 };
 
 //delete note
 export const deleteNotesById = async (_id, userID) => {
-    await Notes.findOneAndDelete({_id: _id, userID: userID});
-    return '';
+   const data = await Notes.findOneAndDelete({_id: _id, userID: userID});
+   if(data!=null)
+   {
+       return data;
+   }else{
+       throw new Error('noteId is not available with this userID');
+   }
 };
 
 //Archive note
@@ -64,7 +84,7 @@ export const archiveNote = async (_id,userID) => {
 
 //trash a note
 export const trashNote = async (_id,userID) => {
-    const noteData = await Notes.findById({_id:_id,userID:userID});
+    const noteData = await Notes.findOne({_id:_id,userID:userID});
     let checkStatus = () => {
         if (noteData.isTrash == false) {
             return true

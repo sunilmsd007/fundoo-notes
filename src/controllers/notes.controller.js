@@ -29,8 +29,8 @@ import * as NoteService from '../services/notes.service';
 export const getAllNotes = async (req, res, next) => {
     try {
       const data = await NoteService.getAllNotes(req.body.userID);
-      res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
+      res.status(HttpStatus.ACCEPTED).json({
+        code: HttpStatus.ACCEPTED,
         data: data,
         message: 'All notes fetched successfully'
       });
