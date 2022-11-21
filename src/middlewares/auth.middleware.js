@@ -23,6 +23,7 @@ export const userAuth = async (req, res, next) => {
     console.log("bearer token after split--------",bearerToken);
     const user = await jwt.verify(bearerToken, process.env.SECRET_KEY);
     req.body.userID = user.email;
+    req.body.email = user.email;
     next();
   } catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({

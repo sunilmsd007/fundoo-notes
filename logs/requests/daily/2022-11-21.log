@@ -72,3 +72,7 @@ info: ::1 - - [21/Nov/2022:13:02:27 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 72 
 
 info: ::1 - - [21/Nov/2022:13:06:40 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 250 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [21/Nov/2022:16:34:22 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 66 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [21/Nov/2022:16:36:59 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 328 "-" "PostmanRuntime/7.29.2"
+
