@@ -38,3 +38,23 @@ export const register = async (req, res, next) => {
   next(error);
 }
 }
+
+/**
+ * Controller for forgotPassword
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+ export const forgotPassword = async (req, res, next) => {
+  try {
+    const data = await UserService.forgotPassword(req.body);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: "link to reset password sent to your email "
+    });
+}catch (error) {
+  next(error);
+}
+}
+

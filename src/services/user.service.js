@@ -2,6 +2,7 @@ import { error } from 'winston';
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
+import { sendMail } from '../utils/user.util';
 
 //register new user
 export const register = async (body) => {
@@ -31,4 +32,16 @@ export const login = async (body) => {
   }
 };
 
+//forgot password
+export const forgotPassword = async (body) => {
+  const data = await User.findOne({ email: body.email });
+  if (data != null) {
+    var token = jwt.sign({ firstname: data.firstname, email: data.email }, process.env.SECRET_KEY);
+    sendMail(body.email)
+    return token;
+
+  } else {
+    throw new Error("Invalid Email");
+  }
+};
 
