@@ -23,7 +23,6 @@ export const userAuth = async (req, res, next) => {
     console.log("bearer token after split--------",bearerToken);
     const user = await jwt.verify(bearerToken, process.env.SECRET_KEY);
     req.body.userID = user.email;
-    req.body.email = user.email;
     next();
   } catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({
@@ -34,3 +33,27 @@ export const userAuth = async (req, res, next) => {
   }
 };
 
+//userAuth for reset password
+export const userAuthforResetpwd = async (req, res, next) => {
+  try {
+    let bearerToken = req.header('Authorization');
+    console.log("bearer token before split--------",bearerToken);
+    if (!bearerToken)
+      throw {
+        code: HttpStatus.BAD_REQUEST,
+        message: 'Authorization token is required'
+      };
+      
+    bearerToken = bearerToken.split(' ')[1];
+    console.log("bearer token after split--------",bearerToken);
+    const user = await jwt.verify(bearerToken, process.env.SECRET_KEY);
+    req.body.email = user.email;
+    next();
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+    })
+    next(error);
+  }
+};

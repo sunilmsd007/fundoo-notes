@@ -1,0 +1,4 @@
+info: ::1 - - [22/Nov/2022:03:25:50 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Nov/2022:06:59:34 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 328 "-" "PostmanRuntime/7.29.2"
+
