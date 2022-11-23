@@ -3317,3 +3317,533 @@ info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T0
 info: Connected to the database. {"timestamp":"2022-11-22T03:25:41.135Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T06:59:00.396Z"}
 info: Connected to the database. {"timestamp":"2022-11-22T06:59:00.440Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T07:49:43.049Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T07:49:43.128Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (E:\fundo-project\fundoo-notes\tests\integration\/user.test.js:42:40)
+    at Test.assert (E:\fundo-project\fundoo-notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\fundo-project\fundoo-notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Tue Nov 22 2022 13:19:43 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2809788},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\fundo-project\\fundoo-notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19213522,"external":44647898,"heapTotal":136822784,"heapUsed":111319600,"rss":168960000},"pid":18032,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-22T07:49:43.266Z","trace":[{"column":40,"file":"E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T07:50:36.426Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T07:50:36.526Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T07:50:36.652Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (E:\fundo-project\fundoo-notes\tests\integration\/user.test.js:42:40)
+    at Test.assert (E:\fundo-project\fundoo-notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\fundo-project\fundoo-notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Tue Nov 22 2022 13:20:36 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2809842},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\fundo-project\\fundoo-notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19256058,"external":21154144,"heapTotal":120958976,"heapUsed":96635896,"rss":152678400},"pid":19296,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-22T07:50:36.712Z","trace":[{"column":40,"file":"E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T07:52:20.517Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T07:52:20.577Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T12:13:11.234Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T12:13:11.314Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T12:13:11.564Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T13:06:43.474Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T13:06:43.527Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:06:43.768Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:06:43.792Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T13:09:22.291Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T13:09:22.339Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:09:22.576Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:09:22.596Z"}
+error: uncaughtException: expected 500 to equal 400
+AssertionError: expected 500 to equal 400
+    at Test.<anonymous> (E:\fundo-project\fundoo-notes\tests\integration\/user.test.js:80:40)
+    at Test.assert (E:\fundo-project\fundoo-notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\fundo-project\fundoo-notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Tue Nov 22 2022 18:39:22 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":400,"message":"expected 500 to equal 400","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js:80:40)\n    at Test.assert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2828968},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\fundo-project\\fundoo-notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18334747,"external":25421695,"heapTotal":122327040,"heapUsed":89134168,"rss":152698880},"pid":15980,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js:80:40)\n    at Test.assert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-22T13:09:22.641Z","trace":[{"column":40,"file":"E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js","function":null,"line":80,"method":null,"native":false},{"column":6,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T13:13:24.149Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T13:13:24.197Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:13:24.430Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:13:24.448Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:13:24.476Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T13:13:51.658Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T13:13:51.707Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:13:51.943Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:13:51.966Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:13:51.985Z"}
+error: uncaughtException: expected 500 to equal 400
+AssertionError: expected 500 to equal 400
+    at Test.<anonymous> (E:\fundo-project\fundoo-notes\tests\integration\/user.test.js:99:40)
+    at Test.assert (E:\fundo-project\fundoo-notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\fundo-project\fundoo-notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Tue Nov 22 2022 18:43:51 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":400,"message":"expected 500 to equal 400","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js:99:40)\n    at Test.assert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2829237},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\fundo-project\\fundoo-notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18361665,"external":36632113,"heapTotal":121278464,"heapUsed":88329176,"rss":152190976},"pid":11424,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 500 to equal 400\n    at Test.<anonymous> (E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js:99:40)\n    at Test.assert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-22T13:13:52.022Z","trace":[{"column":40,"file":"E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js","function":null,"line":99,"method":null,"native":false},{"column":6,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T13:14:23.146Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T13:14:23.198Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:14:23.428Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:14:23.447Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:14:23.467Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T13:20:49.873Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T13:20:49.920Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:20:50.154Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:20:50.181Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:20:50.198Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T13:22:03.573Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T13:22:03.620Z"}
+error: uncaughtException: expected 201 to equal 202
+AssertionError: expected 201 to equal 202
+    at Test.<anonymous> (E:\fundo-project\fundoo-notes\tests\integration\/user.test.js:43:36)
+    at Test.assert (E:\fundo-project\fundoo-notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\fundo-project\fundoo-notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Tue Nov 22 2022 18:52:03 GMT+0530 (India Standard Time)","error":{"actual":201,"expected":202,"message":"expected 201 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 201 to equal 202\n    at Test.<anonymous> (E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js:43:36)\n    at Test.assert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2829729},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\fundo-project\\fundoo-notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19439614,"external":44640008,"heapTotal":119128064,"heapUsed":97359944,"rss":151973888},"pid":9868,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 201 to equal 202\n    at Test.<anonymous> (E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js:43:36)\n    at Test.assert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-22T13:22:03.854Z","trace":[{"column":36,"file":"E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T13:23:16.117Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T13:23:16.173Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:23:16.414Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:23:16.435Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:23:16.463Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T13:38:22.795Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T13:38:22.856Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:38:23.114Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:38:23.135Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:38:23.153Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 5 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:38:23.169Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T13:47:25.868Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T13:47:25.931Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:47:26.210Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:47:26.246Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:47:26.276Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 5 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:47:26.303Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T13:48:24.095Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T13:48:24.157Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:48:24.395Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:48:24.416Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:48:24.439Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 5 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:48:24.460Z"}
+error: uncaughtException: expected 202 to equal 201
+AssertionError: expected 202 to equal 201
+    at Test.<anonymous> (E:\fundo-project\fundoo-notes\tests\integration\/user.test.js:135:40)
+    at Test.assert (E:\fundo-project\fundoo-notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\fundo-project\fundoo-notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Tue Nov 22 2022 19:18:24 GMT+0530 (India Standard Time)","error":{"actual":202,"expected":201,"message":"expected 202 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 202 to equal 201\n    at Test.<anonymous> (E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js:135:40)\n    at Test.assert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2831310},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\fundo-project\\fundoo-notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18549017,"external":48998517,"heapTotal":121540608,"heapUsed":91144320,"rss":152825856},"pid":18172,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 202 to equal 201\n    at Test.<anonymous> (E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js:135:40)\n    at Test.assert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-22T13:48:24.660Z","trace":[{"column":40,"file":"E:\\fundo-project\\fundoo-notes\\tests\\integration\\/user.test.js","function":null,"line":135,"method":null,"native":false},{"column":6,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T13:52:25.310Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T13:52:25.380Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:52:25.646Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:52:25.680Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:52:25.705Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 5 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:52:25.753Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Email
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:31:11)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:52:25.940Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T13:55:26.789Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T13:55:26.858Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:55:27.104Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:55:27.128Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:55:27.155Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 5 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:55:27.173Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Email
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:31:11)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:55:27.354Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:27:13)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:55:27.491Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-22T13:57:30.885Z"}
+info: Connected to the database. {"timestamp":"2022-11-22T13:57:30.942Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:57:31.199Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:57:31.221Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:57:31.245Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 5 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:57:31.265Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Email
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:31:11)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:57:31.447Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:27:13)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-22T13:57:31.588Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-23T03:15:59.882Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T03:15:59.957Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T03:16:00.237Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T03:16:00.265Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T03:16:00.297Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 5 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T03:16:00.325Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Email
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:31:11)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T03:16:00.516Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:27:13)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T03:16:00.660Z"}

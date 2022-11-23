@@ -1,0 +1,16 @@
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:03:16:00 +0000] "POST /api/v1/users/register HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:03:16:00 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:03:16:00 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:03:16:00 +0000] "POST /api/v1/users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:03:16:00 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:03:16:00 +0000] "POST /api/v1/users/login HTTP/1.1" 202 231 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:03:16:00 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:03:16:00 +0000] "POST /api/v1/users/login HTTP/1.1" 500 51 "-" "node-superagent/3.8.3"
+
