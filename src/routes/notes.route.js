@@ -1,6 +1,6 @@
 import express from "express";
 import { userAuth } from "../middlewares/auth.middleware";
-import { notesValidator } from "../validators/notes.validator";
+import { notesUpdateValidator, notesValidator } from "../validators/notes.validator";
 import * as notesController from '../controllers/notes.controller';
 
 const router = express.Router();
@@ -15,7 +15,7 @@ router.get('',userAuth,notesController.getAllNotes);
 router.get('/:_id', userAuth, notesController.getNotesById);
 
 //to update notes by id
-router.put('/:_id', userAuth, notesController.updateNotesById);
+router.put('/:_id',notesUpdateValidator, userAuth, notesController.updateNotesById);
 
 //to update notes by id
 router.delete('/:_id', userAuth, notesController.deleteNotesById);

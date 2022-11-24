@@ -11,7 +11,24 @@ export const notesValidator = (req, res, next) => {
   if (error) {
     next(error);
   } else {
-    req.validatedBody = value;
+     req.validatedBody = value;
     next();
   }
 };
+
+export const notesUpdateValidator = (req, res, next) => {
+  const schema = Joi.object({
+    title: Joi.string().min(2),
+    description: Joi.string().min(2),
+    colour: Joi.string().optional(),
+    userID: Joi.string().optional()
+  });
+  const { error, value } = schema.validate(req.body);
+  if (error) {
+    next(error);
+  } else {
+     req.validatedBody = value;
+    next();
+  }
+};
+

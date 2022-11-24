@@ -25,10 +25,6 @@ export const userAuth = async (req, res, next) => {
     req.body.userID = user.email;
     next();
   } catch (error) {
-    res.status(HttpStatus.BAD_REQUEST).json({
-      code: HttpStatus.BAD_REQUEST,
-        message: `${error}`
-    })
     next(error);
   }
 };
@@ -50,10 +46,6 @@ export const userAuthforResetpwd = async (req, res, next) => {
     req.body.email = user.email;
     next();
   } catch (error) {
-    res.status(HttpStatus.BAD_REQUEST).json({
-      code: HttpStatus.BAD_REQUEST,
-        message: `${error}`
-    })
     next(error);
   }
 };
