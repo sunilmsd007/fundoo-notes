@@ -13761,3 +13761,326 @@ error:
     method - PUT 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-11-24T08:37:00.653Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T09:59:19.577Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T09:59:19.620Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:04:05.052Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:04:05.111Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:04:57.052Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:04:57.091Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:06:04.643Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:06:04.687Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:07:33.983Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:07:34.128Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:09:30.451Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:09:30.581Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:09:42.660Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:09:42.708Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:15:53.627Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:15:53.671Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:20:39.427Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:20:39.473Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:22:34.237Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:22:34.279Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:24:09.550Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:24:09.658Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:28:04.899Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:28:04.942Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:45:22.526Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:45:22.572Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:49:46.651Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:49:46.693Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:50:42.596Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:50:42.645Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T10:58:52.800Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T10:58:52.887Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T11:13:17.518Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T11:13:17.560Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T11:41:29.511Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T11:41:29.563Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T12:13:56.088Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T12:13:56.132Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T12:15:15.479Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T12:15:15.600Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T12:17:26.663Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T12:17:26.707Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:27:13)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-24T12:18:24.907Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T12:21:49.874Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T12:21:49.997Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Email
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:31:11)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-24T12:22:13.696Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T12:29:34.934Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T12:29:34.978Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T12:32:02.848Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T12:32:02.931Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T14:35:45.858Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T14:35:45.894Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T14:37:51.554Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T14:37:51.595Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetpwd 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-24T14:38:15.346Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-24T14:39:56.807Z"}
+info: Connected to the database. {"timestamp":"2022-11-24T14:39:56.851Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T03:41:02.272Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T03:41:02.331Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T05:46:44.875Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T05:46:44.923Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-25T05:47:36.359Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T05:48:22.539Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T05:48:22.617Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:27:13)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T05:49:09.420Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:27:13)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T05:49:56.418Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T05:58:06.116Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is not allowed to be empty 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T06:08:53.575Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T06:16:49.220Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T06:16:49.268Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T06:29:03.762Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T06:29:03.911Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T06:35:40.957Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T06:35:41.099Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T06:37:22.406Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T06:37:22.452Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T06:39:08.678Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T06:39:08.726Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T06:51:17.951Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T06:51:18.022Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T06:53:23.752Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T06:53:23.793Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T06:54:17.299Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T06:54:17.343Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-11-25T06:54:31.961Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T06:55:02.004Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T06:56:03.765Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T06:56:03.806Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T06:56:38.127Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63805f9b667bc437a818851" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63805f9b667bc437a818851 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T07:00:40.281Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T07:01:05.458Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T07:12:58.246Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T07:12:58.390Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T07:13:54.695Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T07:15:47.340Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T07:15:47.379Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T07:33:16.225Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T07:33:16.294Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (E:\fundo-project\fundoo-notes\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:24:28)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/notes/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T07:34:55.264Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (E:\fundo-project\fundoo-notes\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:24:28)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/notes/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T07:35:10.738Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:27:13)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T07:37:16.598Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T07:38:39.766Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T07:51:02.596Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T07:51:02.646Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T07:54:53.049Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T07:54:53.094Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T08:01:48.536Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:01:48.673Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T08:05:14.582Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:05:14.639Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T08:24:01.282Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:24:01.323Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T08:26:03.212Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:26:03.286Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T08:28:15.499Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:28:15.607Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T08:33:28.191Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:33:28.286Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T08:38:50.954Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:38:50.998Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T08:42:32.610Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:42:32.666Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T11:47:46.399Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T11:47:46.513Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T11:54:38.793Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T11:54:38.833Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T12:13:13.642Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T12:13:13.677Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T12:14:50.921Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T12:14:50.957Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T13:26:10.329Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T13:26:10.372Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-26T14:35:40.104Z"}
+info: Connected to the database. {"timestamp":"2022-11-26T14:35:40.156Z"}

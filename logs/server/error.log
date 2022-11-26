@@ -13193,3 +13193,210 @@ error:
     method - PUT 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-11-24T08:37:00.653Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:27:13)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-24T12:18:24.907Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Email
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:31:11)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-24T12:22:13.696Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetpwd 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-24T14:38:15.346Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-25T05:47:36.359Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:27:13)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T05:49:09.420Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:27:13)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T05:49:56.418Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T05:58:06.116Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is not allowed to be empty 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T06:08:53.575Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-11-25T06:54:31.961Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T06:55:02.004Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T06:56:38.127Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63805f9b667bc437a818851" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/63805f9b667bc437a818851 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T07:00:40.281Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T07:01:05.458Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T07:13:54.695Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (E:\fundo-project\fundoo-notes\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:24:28)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/notes/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T07:34:55.264Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (E:\fundo-project\fundoo-notes\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:24:28)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/notes/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T07:35:10.738Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:27:13)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T07:37:16.598Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T07:38:39.766Z"}
