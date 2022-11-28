@@ -14157,3 +14157,5 @@ info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T1
 info: Connected to the database. {"timestamp":"2022-11-28T15:46:09.025Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T15:46:27.458Z"}
 info: Connected to the database. {"timestamp":"2022-11-28T15:46:27.529Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T15:53:32.556Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T15:53:32.606Z"}
