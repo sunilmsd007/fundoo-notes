@@ -14084,3 +14084,76 @@ info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-25T1
 info: Connected to the database. {"timestamp":"2022-11-25T13:26:10.372Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-26T14:35:40.104Z"}
 info: Connected to the database. {"timestamp":"2022-11-26T14:35:40.156Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T14:04:05.527Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T14:04:05.597Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T14:08:41.866Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T14:08:41.923Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:27:13)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-28T14:11:52.969Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T14:15:30.493Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T14:15:30.569Z"}
+error: 
+    status - 500 
+    message - Error: noteId is not available with this userID
+    at _callee5$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:61:14)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6384c017f1fa9e2c2490a7d7 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-11-28T14:22:01.211Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T14:35:07.133Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T14:35:07.183Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T14:42:08.848Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T14:42:08.900Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T15:16:31.429Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T15:16:31.479Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T15:16:50.449Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T15:16:50.501Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T15:18:13.859Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T15:18:13.912Z"}
+error: 
+    status - 500 
+    message - TypeError: Invalid argument type
+    at encodeCommand (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:17:19)
+    at RedisCommandsQueue.getCommandToSend (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\commands-queue.js:187:45)
+    at Commander._RedisClient_tick (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\index.js:468:76)
+    at Commander._RedisClient_sendCommand (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\index.js:452:82)
+    at Commander.commandsExecutor (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\index.js:177:154)
+    at Commander.set (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:14:18)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-28T15:19:54.915Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T15:23:12.796Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T15:23:12.853Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T15:33:38.925Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T15:33:38.979Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T15:34:57.267Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T15:34:57.337Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T15:46:08.971Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T15:46:09.025Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-28T15:46:27.458Z"}
+info: Connected to the database. {"timestamp":"2022-11-28T15:46:27.529Z"}
