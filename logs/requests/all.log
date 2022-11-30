@@ -4308,3 +4308,44 @@ info: ::1 - - [28/Nov/2022:15:34:21 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 302
 
 info: ::1 - - [28/Nov/2022:15:53:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 302 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [29/Nov/2022:02:46:07 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 285 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Nov/2022:02:46:24 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 514 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Nov/2022:02:50:39 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 529 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Tue Nov 29 2022 14:55:30 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":3420348},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18369649,"external":20229987,"heapTotal":122343424,"heapUsed":116850200,"rss":38436864},"pid":16968,"uid":null,"version":"v16.18.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: ::1 - - [29/Nov/2022:11:23:57 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Nov/2022:11:23:57 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Nov/2022:11:23:57 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Nov/2022:11:23:57 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Nov/2022:11:23:57 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Nov/2022:11:23:57 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Nov/2022:14:46:58 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 529 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Nov/2022:15:00:19 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Nov/2022:15:00:19 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Nov/2022:15:00:19 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Nov/2022:15:00:19 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Nov/2022:15:00:19 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Nov/2022:15:00:19 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Nov/2022:03:03:51 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Nov/2022:03:04:00 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 739 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Nov/2022:03:04:10 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 754 "-" "PostmanRuntime/7.29.2"
+

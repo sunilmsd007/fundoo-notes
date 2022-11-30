@@ -13447,3 +13447,6 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2022-11-28T15:19:54.915Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Tue Nov 29 2022 14:55:30 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":3420348},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18369625,"external":20229923,"heapTotal":122343424,"heapUsed":116813864,"rss":35917824},"pid":16968,"uid":null,"version":"v16.18.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2022-11-29T09:25:30.508Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}

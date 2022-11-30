@@ -16,6 +16,7 @@ export const register = async (body) => {
 
 // user login
 export const login = async (body) => {
+  await client.del('getAllData');
   const data = await User.findOne({ email: body.email });
   if (data != null) {
     const result = await bcrypt.compare(body.password, data.password);
