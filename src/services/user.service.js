@@ -3,6 +3,7 @@ import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { sendMail } from '../utils/user.util';
+import { sender } from '../utils/rabbitmq';
 
 //register new user
 export const register = async (body) => {
@@ -11,6 +12,8 @@ export const register = async (body) => {
   const hash = bcrypt.hashSync(body.password, salt);
   body.password = hash;
   const data = await User.create(body);
+  var userData = JSON.stringify({firstname: data.firstname, lastname: data.lastname, email: data.email});
+  sender(userData);
   return data;
 };
 
