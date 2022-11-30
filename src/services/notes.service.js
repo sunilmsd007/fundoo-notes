@@ -34,6 +34,7 @@ export const getNotesById = async (_id,userID) => {
 
 //update note
 export const updateNotesById = async (_id, body) => {
+    await client.del('getAllData');
     const data = await Notes.findOneAndUpdate(
         {
             _id: _id,
@@ -53,6 +54,7 @@ export const updateNotesById = async (_id, body) => {
 
 //delete note
 export const deleteNotesById = async (_id, userID) => {
+    await client.del('getAllData');
    const data = await Notes.findOneAndDelete({_id: _id, userID: userID});
    if(data!=null)
    {
@@ -64,6 +66,7 @@ export const deleteNotesById = async (_id, userID) => {
 
 //Archive note
 export const archiveNote = async (_id,userID) => {
+    await client.del('getAllData');
     const noteData = await Notes.findOne({_id:_id,userID:userID});
     let checkStatus = () => {
         if (noteData.isArchive == false) {
@@ -87,6 +90,7 @@ export const archiveNote = async (_id,userID) => {
 
 //trash a note
 export const trashNote = async (_id,userID) => {
+    await client.del('getAllData');
     const noteData = await Notes.findOne({_id:_id,userID:userID});
     let checkStatus = () => {
         if (noteData.isTrash == false) {
