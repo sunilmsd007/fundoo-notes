@@ -14214,3 +14214,131 @@ ReferenceError: queue is not defined
     at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:09:46 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":99033},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19491907,"external":21311981,"heapTotal":179822592,"heapUsed":125150568,"rss":216797184},"pid":11024,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: queue is not defined\n    at E:\\fundo-project\\fundoo-notes\\src\\utils\\/rabbitmq.js:41:29\n    at E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T14:39:47.036Z","trace":[{"column":29,"file":"E:\\fundo-project\\fundoo-notes\\src\\utils\\/rabbitmq.js","function":null,"line":41,"method":null,"native":false},{"column":29,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-30T14:46:15.974Z"}
 info: Connected to the database. {"timestamp":"2022-11-30T14:46:16.040Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-30T15:41:44.888Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:41:44.962Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Email
+    at _callee3$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:48:11)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:44:36.010Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundoodb.users index: email_1 dup key: { email: "sunilah07@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T16:33:13.854Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\fundo-project\fundoo-notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\fundo-project\fundoo-notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\fundo-project\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\fundo-project\fundoo-notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:326:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:646:15
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:265:14)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:646:15
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (E:\fundo-project\fundoo-notes\src\controllers\/user.controller.js:19:5)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T16:33:13.872Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-30T16:33:42.417Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T16:33:42.484Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundoodb.users index: email_1 dup key: { email: "sunilah07@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T16:34:15.173Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\fundo-project\fundoo-notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\fundo-project\fundoo-notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\fundo-project\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\fundo-project\fundoo-notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:326:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:646:15
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:265:14) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T16:34:15.189Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-30T17:06:34.121Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T17:06:34.185Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-30T17:35:10.648Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T17:35:10.717Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-30T17:40:39.878Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T17:40:39.929Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-11-30T17:42:40.514Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T17:42:40.616Z"}
+error: uncaughtException: write ECONNRESET
+Error: write ECONNRESET
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:905:11)
+    at Socket._write (node:net:917:8)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at Socket.Writable.write (node:internal/streams/writable:336:10)
+    at Connection.C.sendBytes (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:527:15)
+    at Connection.C.sendHeartbeat (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:531:15)
+    at Heart.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:441:12)
+    at Heart.emit (node:events:513:28)
+    at Heart.emit (node:domain:489:12)
+    at Heart.runHeartbeat (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\heartbeat.js:88:17)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Thu Dec 01 2022 07:56:44 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":141451},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18438990,"external":20394113,"heapTotal":124055552,"heapUsed":115730760,"rss":49635328},"pid":15464,"uid":null,"version":"v16.18.0"},"stack":"Error: write ECONNRESET\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at Socket._writeGeneric (node:net:905:11)\n    at Socket._write (node:net:917:8)\n    at writeOrBuffer (node:internal/streams/writable:391:12)\n    at _write (node:internal/streams/writable:332:10)\n    at Socket.Writable.write (node:internal/streams/writable:336:10)\n    at Connection.C.sendBytes (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:527:15)\n    at Connection.C.sendHeartbeat (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:531:15)\n    at Heart.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:441:12)\n    at Heart.emit (node:events:513:28)\n    at Heart.emit (node:domain:489:12)\n    at Heart.runHeartbeat (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\heartbeat.js:88:17)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","timestamp":"2022-12-01T02:26:45.077Z","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"Socket._writeGeneric","line":905,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"Socket._write","line":917,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":391,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":332,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"Socket.Writable.write","line":336,"method":"write","native":false},{"column":15,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.C.sendBytes","line":527,"method":"sendBytes","native":false},{"column":15,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.C.sendHeartbeat","line":531,"method":"sendHeartbeat","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":null,"line":441,"method":null,"native":false},{"column":28,"file":"node:events","function":"Heart.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Heart.emit","line":489,"method":"emit","native":false},{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\heartbeat.js","function":"Heart.runHeartbeat","line":88,"method":"runHeartbeat","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-01T02:47:57.773Z"}
+info: Connected to the database. {"timestamp":"2022-12-01T02:47:57.930Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-01T14:18:03.721Z"}
+info: Connected to the database. {"timestamp":"2022-12-01T14:18:03.792Z"}
+error: uncaughtException: Channel closed by server: 406 (PRECONDITION-FAILED) with message "PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'register' in vhost '/': received 'true' but current is 'false'"
+Error: Channel closed by server: 406 (PRECONDITION-FAILED) with message "PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'register' in vhost '/': received 'true' but current is 'false'"
+    at Channel.C.accept (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\channel.js:421:17)
+    at Connection.mainAccept [as accept] (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Dec 01 2022 19:48:03 GMT+0530 (India Standard Time)","error":{"classId":50,"code":406,"methodId":10},"exception":true,"os":{"loadavg":[0,0,0],"uptime":184130},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19507873,"external":21342363,"heapTotal":180109312,"heapUsed":126046800,"rss":217174016},"pid":8492,"uid":null,"version":"v16.18.0"},"stack":"Error: Channel closed by server: 406 (PRECONDITION-FAILED) with message \"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'register' in vhost '/': received 'true' but current is 'false'\"\n    at Channel.C.accept (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\channel.js:421:17)\n    at Connection.mainAccept [as accept] (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-12-01T14:18:03.870Z","trace":[{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":421,"method":"accept","native":false},{"column":33,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-01T14:18:53.394Z"}
+info: Connected to the database. {"timestamp":"2022-12-01T14:18:53.464Z"}

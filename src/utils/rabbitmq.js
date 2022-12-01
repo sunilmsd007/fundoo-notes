@@ -1,3 +1,5 @@
+import { sendSuccessMail } from './rabbit.util';
+
 var amqp = require('amqplib/callback_api');
 
 export const sender=(data) => {
@@ -45,6 +47,8 @@ const receiver=() => {
 
         channel.consume(queue, function(msg) {
             console.log(" [x] Received %s", msg.content.toString());
+            let registeredData = JSON.parse(msg.content.toString());
+            sendSuccessMail(registeredData.email, registeredData.firstname, registeredData.lastname);
         }, {
             noAck: true
         });

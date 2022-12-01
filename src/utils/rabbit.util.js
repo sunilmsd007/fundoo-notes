@@ -13,7 +13,7 @@ const oAuth2Client = new google.auth.OAuth2(
   );
   oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
 
-  export const sendMail = async(toEmail)=>{
+  export const sendSuccessMail = async(toEmail,firstname,lastname)=>{
     try {
       const accessToken = await oAuth2Client.getAccessToken();
   
@@ -31,9 +31,8 @@ const oAuth2Client = new google.auth.OAuth2(
       const mailOptions = {
         from: 'SUNILKUMAR <sunilmsd007@gmail.com>',
         to: toEmail,
-        subject: 'link to reset password',
-        body: 'Hi from gmail using API',
-        html: `<h1>To reset your password <a href="http://localhost:4000/api/v1/users/resetpwd">click here </a></h1>`
+        subject: 'user registration successfully',
+        text: `Hi ${firstname} ${lastname}, You have successfully registered!!`
       };
   
       const result = await transport.sendMail(mailOptions);
