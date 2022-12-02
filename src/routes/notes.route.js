@@ -27,4 +27,7 @@ router.put('/:_id/isArchive', userAuth, notesController.archiveNote);
 //to trash notes 
 router.put('/:_id/isTrash', userAuth, notesController.trashNote);
 
+//to pin notes 
+router.put('/:_id/pinned', userAuth, notesController.pinNote);
+
 export default router;

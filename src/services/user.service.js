@@ -4,6 +4,7 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { sendMail } from '../utils/user.util';
 import { sender } from '../utils/rabbitmq';
+import { client } from '../config/redis';
 
 //register new user
 export const register = async (body) => {

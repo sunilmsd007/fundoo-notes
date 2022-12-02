@@ -14363,3 +14363,116 @@ info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-02T0
 info: Connected to the database. {"timestamp":"2022-12-02T06:43:13.553Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-02T06:44:52.951Z"}
 info: Connected to the database. {"timestamp":"2022-12-02T06:44:53.080Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-02T06:56:21.702Z"}
+info: Connected to the database. {"timestamp":"2022-12-02T06:56:21.799Z"}
+error: 
+    status - 500 
+    message - ReferenceError: client is not defined
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:21:33)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (E:\fundo-project\fundoo-notes\src\services\/user.service.js:21:19)
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\controllers\/user.controller.js:31:36)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (E:\fundo-project\fundoo-notes\src\controllers\/user.controller.js:29:20)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\fundo-project\fundoo-notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at E:\fundo-project\fundoo-notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\fundo-project\fundoo-notes\node_modules\raw-body\index.js:231:16) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-02T06:57:55.862Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-02T06:58:59.494Z"}
+info: Connected to the database. {"timestamp":"2022-12-02T06:58:59.549Z"}
+error: 
+    status - 500 
+    message - ReferenceError: client is not defined
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:21:33)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (E:\fundo-project\fundoo-notes\src\services\/user.service.js:21:19)
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\controllers\/user.controller.js:31:36)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-02T06:59:09.167Z"}
+error: 
+    status - 500 
+    message - ReferenceError: client is not defined
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\/user.service.js:21:33)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (E:\fundo-project\fundoo-notes\src\services\/user.service.js:21:19)
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\controllers\/user.controller.js:31:36)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-02T07:02:08.548Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-02T07:04:11.777Z"}
+info: Connected to the database. {"timestamp":"2022-12-02T07:04:11.854Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-02T07:06:29.813Z"}
+info: Connected to the database. {"timestamp":"2022-12-02T07:06:29.878Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-02T07:08:58.580Z"}
+info: Connected to the database. {"timestamp":"2022-12-02T07:08:58.647Z"}

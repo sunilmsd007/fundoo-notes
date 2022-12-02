@@ -133,3 +133,22 @@ export const trashNote = async (req, res, next) => {
       next(error);
     }
   };
+
+      /**
+ * Controller to pin a note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const pinNote = async (req, res, next) => {
+  try {
+    const data = await NoteService.pinNote(req.params._id,req.body.userID);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'Note pinned successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
