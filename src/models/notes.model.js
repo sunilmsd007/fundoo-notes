@@ -1,3 +1,4 @@
+import { boolean } from '@hapi/joi';
 import { Schema, model } from 'mongoose';
 
 const userSchema = new Schema(
@@ -23,7 +24,11 @@ const userSchema = new Schema(
     },
     userID: {
         type: String
-    }
+    },
+    pinned: {
+      type: Boolean,
+      default: false
+  }
 
   },
   {
