@@ -10,26 +10,25 @@ export const createNotes = async (body) => {
 
 //get all notes
 export const getAllNotes = async (userID) => {
-    const data = await Notes.find({userID:userID});
-    await client.set('getAllData',JSON.stringify(data));
-    if(data.length!=0)
-    {
+    const data = await Notes.find({ userID: userID });
+    await client.set('getAllData', JSON.stringify(data));
+    if (data.length != 0) {
         return data;
-    }else{
+    } else {
         throw new Error('No note is available with this userID');
     }
-    
+
 }
 
 //get notes by id
-export const getNotesById = async (_id,userID) => {
-    const data = await Notes.findOne({_id:_id,userID:userID});
-    if(data!=null){
+export const getNotesById = async (_id, userID) => {
+    const data = await Notes.findOne({ _id: _id, userID: userID });
+    if (data != null) {
         return data;
-    }else{
+    } else {
         throw new Error('noteId is not available with this userID');
     }
-    
+
 }
 
 //update note
@@ -45,9 +44,9 @@ export const updateNotesById = async (_id, body) => {
             new: true
         }
     );
-    if(data!=null){
+    if (data != null) {
         return data;
-    }else{
+    } else {
         throw new Error('noteId is not available with this userID');
     }
 };
@@ -55,19 +54,18 @@ export const updateNotesById = async (_id, body) => {
 //delete note
 export const deleteNotesById = async (_id, userID) => {
     await client.del('getAllData');
-   const data = await Notes.findOneAndDelete({_id: _id, userID: userID});
-   if(data!=null)
-   {
-       return data;
-   }else{
-       throw new Error('noteId is not available with this userID');
-   }
+    const data = await Notes.findOneAndDelete({ _id: _id, userID: userID });
+    if (data != null) {
+        return data;
+    } else {
+        throw new Error('noteId is not available with this userID');
+    }
 };
 
 //Archive note
-export const archiveNote = async (_id,userID) => {
+export const archiveNote = async (_id, userID) => {
     await client.del('getAllData');
-    const noteData = await Notes.findOne({_id:_id,userID:userID});
+    const noteData = await Notes.findOne({ _id: _id, userID: userID });
     let checkStatus = () => {
         if (noteData.isArchive == false) {
             return true
@@ -80,7 +78,7 @@ export const archiveNote = async (_id,userID) => {
         {
             _id
         },
-        {isArchive:status},
+        { isArchive: status },
         {
             new: true
         }
@@ -89,9 +87,9 @@ export const archiveNote = async (_id,userID) => {
 };
 
 //trash a note
-export const trashNote = async (_id,userID) => {
+export const trashNote = async (_id, userID) => {
     await client.del('getAllData');
-    const noteData = await Notes.findOne({_id:_id,userID:userID});
+    const noteData = await Notes.findOne({ _id: _id, userID: userID });
     let checkStatus = () => {
         if (noteData.isTrash == false) {
             return true
@@ -104,7 +102,7 @@ export const trashNote = async (_id,userID) => {
         {
             _id
         },
-        {isTrash:status},
+        { isTrash: status },
         {
             new: true
         }
@@ -113,9 +111,9 @@ export const trashNote = async (_id,userID) => {
 };
 
 //trash a note
-export const pinNote = async (_id,userID) => {
+export const pinNote = async (_id, userID) => {
     await client.del('getAllData');
-    const noteData = await Notes.findOne({_id:_id,userID:userID});
+    const noteData = await Notes.findOne({ _id: _id, userID: userID });
     let checkStatus = () => {
         if (noteData.pinned == false) {
             return true
@@ -128,7 +126,7 @@ export const pinNote = async (_id,userID) => {
         {
             _id
         },
-        {pinned:status},
+        { pinned: status },
         {
             new: true
         }

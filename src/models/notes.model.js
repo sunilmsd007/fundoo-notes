@@ -1,5 +1,5 @@
 import { boolean } from '@hapi/joi';
-import { Schema, model } from 'mongoose';
+import { Schema, model, mongoose } from 'mongoose';
 
 const userSchema = new Schema(
   {
@@ -28,7 +28,11 @@ const userSchema = new Schema(
     pinned: {
       type: Boolean,
       default: false
+  },
+  collaborator: [{
+     type:String
   }
+  ]
 
   },
   {

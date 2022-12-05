@@ -14476,3 +14476,341 @@ info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-02T0
 info: Connected to the database. {"timestamp":"2022-12-02T07:06:29.878Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-02T07:08:58.580Z"}
 info: Connected to the database. {"timestamp":"2022-12-02T07:08:58.647Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T13:56:22.886Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T13:56:23.018Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to findOne() must be an object, got bhuvan123@gmail.com
+    at model.Query.Query.findOne (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:2321:16)
+    at Function.findOne (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\model.js:2267:13)
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:144:42)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.collabNote (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:141:24)
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\controllers\/notes.controller.js:159:36)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at collabNote (E:\fundo-project\fundoo-notes\src\controllers\/notes.controller.js:157:24)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ca7361656db3a308c0dd7/collaborator 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-12-04T13:58:44.008Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T14:00:06.867Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T14:00:06.921Z"}
+error: 
+    status - 500 
+    message - Error: invalid user email to collaborate
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:162:15)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ca7361656db3a308c0dd7/collaborator 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-12-04T14:00:11.875Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T14:01:14.785Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T14:01:14.839Z"}
+error: 
+    status - 500 
+    message - Error: invalid user email to collaborate
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:163:15)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ca7361656db3a308c0dd7/collaborator 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-12-04T14:01:19.829Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T14:03:17.504Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T14:03:17.546Z"}
+error: 
+    status - 500 
+    message - Error: invalid user email to collaborate
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:163:15)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ca7361656db3a308c0dd7/collaborator 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-12-04T14:03:24.357Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T14:06:34.263Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T14:06:34.311Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'email')
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:146:26)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ca7361656db3a308c0dd7/collaborator 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-12-04T14:07:09.862Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T14:10:56.773Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T14:10:56.823Z"}
+error: 
+    status - 500 
+    message - Error: invalid user email to collaborate
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:163:15)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ca7361656db3a308c0dd7/collaborator 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-12-04T14:11:03.171Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T14:18:16.045Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T14:18:16.098Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T14:20:14.447Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T14:20:14.499Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T17:35:12.912Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T17:35:12.975Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to [ObjectId] failed for value "["bhuvan123@gmail.com"]" (type string) at path "collaborator.0"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ca7361656db3a308c0dd7/collaborator 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-04T17:35:40.989Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T17:50:20.145Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T17:50:20.208Z"}
+error: 
+    status - 500 
+    message - TypeError: _notes.default.findAndUpdateOne is not a function
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:145:38)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ca7361656db3a308c0dd7/collaborator 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-04T17:50:31.710Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T17:51:34.325Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T17:51:34.392Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to [ObjectId] failed for value "["bhuvan123@gmail.com"]" (type string) at path "collaborator.0"
+    at model.Query.exec (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\fundo-project\fundoo-notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ca7361656db3a308c0dd7/collaborator 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-04T17:51:39.076Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T18:01:51.277Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T18:01:51.343Z"}
+error: 
+    status - 500 
+    message - TypeError: _notes.default.findOne(...).insertMany is not a function
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:149:20)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ca7361656db3a308c0dd7/collaborator 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-04T18:01:57.023Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T18:04:15.460Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T18:04:15.528Z"}
+error: 
+    status - 500 
+    message - TypeError: data.insertMany is not a function
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:150:37)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ca7361656db3a308c0dd7/collaborator 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-04T18:04:22.715Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T18:06:04.997Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T18:06:05.070Z"}
+error: 
+    status - 500 
+    message - ReferenceError: result is not defined
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:145:23)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ca7361656db3a308c0dd7/collaborator 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-04T18:06:09.531Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T18:06:39.360Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T18:06:39.424Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T18:09:29.684Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T18:09:29.783Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T18:14:18.713Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T18:14:18.771Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T18:16:32.689Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T18:16:32.767Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T18:20:33.930Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T18:20:33.984Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-04T18:23:32.163Z"}
+error: 
+    status - 500 
+    message - Error: invalid user email to collaborate
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:162:15)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ce2a7371dcf32a4ead9b8/collaborator 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-04T18:24:37.138Z"}
+error: 
+    status - 500 
+    message - ValidationError: "collaborator" must be a valid email 
+    url - /api/v1/notes/638ce2a7371dcf32a4ead9b8/collaborator 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-12-04T18:24:53.859Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T18:27:22.194Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T18:27:22.261Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-04T18:28:50.696Z"}
+info: Connected to the database. {"timestamp":"2022-12-04T18:28:50.755Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T02:35:18.592Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T02:35:18.645Z"}
+error: 
+    status - 500 
+    message - ReferenceError: collaborator is not defined
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:144:15)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ce2a7371dcf32a4ead9b8/collaborator 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-12-05T02:36:04.447Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T02:36:59.072Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T02:36:59.149Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'collaborator')
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:144:29)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638ce2a7371dcf32a4ead9b8/collaborator 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-12-05T02:37:03.765Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T02:38:07.978Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T02:38:08.043Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T03:08:07.156Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T03:08:07.212Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T03:34:50.265Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T03:34:50.313Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T05:32:29.637Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T05:32:29.687Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T05:34:33.175Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T05:34:33.224Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T05:38:51.307Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T05:38:51.357Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T05:44:11.286Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T05:44:11.338Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T05:53:05.443Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T05:53:05.493Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T05:54:16.622Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T05:54:16.676Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T05:55:10.487Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T05:55:10.535Z"}
+error: 
+    status - 500 
+    message - Error: invalid user email to collaborate
+    at _callee9$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:167:15)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/638d8423b9db924fb894e0c8/collaborator 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-12-05T06:28:47.991Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T06:31:12.128Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T06:31:12.197Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T06:32:34.225Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T06:32:34.284Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T06:33:01.936Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T06:33:01.993Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T06:39:37.872Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T06:39:37.944Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T06:40:07.067Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T06:40:07.151Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T06:40:25.793Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T06:40:25.852Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T06:41:23.630Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T06:41:23.696Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T06:41:40.105Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T06:41:40.181Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-12-05T06:42:14.850Z"}
+info: Connected to the database. {"timestamp":"2022-12-05T06:42:14.906Z"}
