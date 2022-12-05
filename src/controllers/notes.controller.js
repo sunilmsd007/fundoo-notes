@@ -152,3 +152,17 @@ export const pinNote = async (req, res, next) => {
     next(error);
   }
 };
+
+//collaborator
+export const collabNote = async (req, res, next) => {
+  try {
+    const data = await NoteService.collabNote(req.params._id,req.body);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'Note collaborated successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};

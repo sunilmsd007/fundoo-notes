@@ -1,6 +1,6 @@
 import express from "express";
 import { userAuth } from "../middlewares/auth.middleware";
-import { notesUpdateValidator, notesValidator } from "../validators/notes.validator";
+import { notesUpdateValidator, notesValidator, collaboratorValidator } from "../validators/notes.validator";
 import * as notesController from '../controllers/notes.controller';
 import { checkRedis } from "../middlewares/redis.middleware";
 
@@ -29,5 +29,8 @@ router.put('/:_id/isTrash', userAuth, notesController.trashNote);
 
 //to pin notes 
 router.put('/:_id/pinned', userAuth, notesController.pinNote);
+
+//collaborator
+router.put('/:_id/collaborator',collaboratorValidator ,userAuth, notesController.collabNote);
 
 export default router;

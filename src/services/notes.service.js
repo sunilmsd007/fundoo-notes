@@ -1,5 +1,6 @@
 import { client } from '../config/redis';
 import Notes from '../models/notes.model';
+import User from '../models/user.model';
 
 //create notes
 export const createNotes = async (body) => {
@@ -133,3 +134,31 @@ export const pinNote = async (_id, userID) => {
     );
     return data;
 };
+
+//collaborator
+export const collabNote = async (_id, body) => {
+    await client.del('getAllData');
+   const checkCollaborator = await User.findOne({ email: body.collaborator })
+   console.log("collab==================>", checkCollaborator)
+   if (checkCollaborator != null) {
+           const data = await Notes.findOneAndUpdate(
+               {
+                   _id: _id,
+                   userID: body.userID
+               },
+               {
+                   $push:{collaborator:body.collaborator}
+               },
+               {
+                   new: true
+               }
+           );
+           if (data != null) {
+               return data;
+           } else {
+               throw new Error('noteId is not available with this userID');
+           }
+       } else {
+       throw new Error('invalid user email to collaborate');
+   }
+}

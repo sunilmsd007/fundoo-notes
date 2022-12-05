@@ -4602,3 +4602,5 @@ info: ::1 - - [05/Dec/2022:06:28:48 +0000] "PUT /api/v1/notes/638d8423b9db924fb8
 
 info: ::1 - - [05/Dec/2022:06:31:16 +0000] "PUT /api/v1/notes/638d8423b9db924fb894e0c8/collaborator HTTP/1.1" 202 399 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [05/Dec/2022:06:52:54 +0000] "PUT /api/v1/notes/638d8423b9db924fb894e0c8/collaborator HTTP/1.1" 202 419 "-" "PostmanRuntime/7.29.2"
+
