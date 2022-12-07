@@ -147,7 +147,7 @@ export const collabNote = async (_id, body) => {
                    userID: body.userID
                },
                {
-                   $push:{collaborator:body.collaborator}
+                   $addToSet:{collaborator:body.collaborator}
                },
                {
                    new: true
