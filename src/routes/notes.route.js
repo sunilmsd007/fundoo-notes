@@ -33,4 +33,7 @@ router.put('/:_id/pinned', userAuth, notesController.pinNote);
 //collaborator
 router.put('/:_id/collaborator',collaboratorValidator ,userAuth, notesController.collabNote);
 
+//remove collaborator
+router.put('/:_id/removeCollaborator',collaboratorValidator ,userAuth, notesController.removeCollabNote);
+
 export default router;

@@ -4606,3 +4606,11 @@ info: ::1 - - [05/Dec/2022:06:52:54 +0000] "PUT /api/v1/notes/638d8423b9db924fb8
 
 info: ::1 - - [07/Dec/2022:05:34:42 +0000] "PUT /api/v1/notes/638d8423b9db924fb894e0c8/collaborator HTTP/1.1" 202 419 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [07/Dec/2022:06:01:32 +0000] "PUT /api/v1/notes/638d8423b9db924fb894e0c8/removeCollaborator HTTP/1.1" 202 419 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [07/Dec/2022:06:02:45 +0000] "DELETE /api/v1/notes/638d8423b9db924fb894e0c8/removeCollaborator HTTP/1.1" 202 419 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [07/Dec/2022:06:04:46 +0000] "PUT /api/v1/notes/638d8423b9db924fb894e0c8/removeCollaborator HTTP/1.1" 202 407 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [07/Dec/2022:06:05:10 +0000] "PUT /api/v1/notes/638d8423b9db924fb894e0c8/removeCollaborator HTTP/1.1" 202 367 "-" "PostmanRuntime/7.29.2"
+

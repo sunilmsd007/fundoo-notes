@@ -166,3 +166,17 @@ export const collabNote = async (req, res, next) => {
     next(error);
   }
 };
+
+//remove collaborator
+export const removeCollabNote = async (req, res, next) => {
+  try {
+    const data = await NoteService.removeCollabNote(req.params._id,req.body);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'Note collaborator removed successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};

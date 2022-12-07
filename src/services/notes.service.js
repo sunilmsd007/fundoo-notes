@@ -138,27 +138,52 @@ export const pinNote = async (_id, userID) => {
 //collaborator
 export const collabNote = async (_id, body) => {
     await client.del('getAllData');
-   const checkCollaborator = await User.findOne({ email: body.collaborator })
-   console.log("collab==================>", checkCollaborator)
-   if (checkCollaborator != null) {
-           const data = await Notes.findOneAndUpdate(
-               {
-                   _id: _id,
-                   userID: body.userID
-               },
-               {
-                   $addToSet:{collaborator:body.collaborator}
-               },
-               {
-                   new: true
-               }
-           );
-           if (data != null) {
-               return data;
-           } else {
-               throw new Error('noteId is not available with this userID');
-           }
-       } else {
-       throw new Error('invalid user email to collaborate');
-   }
+    const checkCollaborator = await User.findOne({ email: body.collaborator })
+    console.log("collab==================>", checkCollaborator)
+    if (checkCollaborator != null) {
+        const data = await Notes.findOneAndUpdate(
+            {
+                _id: _id,
+                userID: body.userID
+            },
+            {
+                $addToSet: { collaborator: body.collaborator }
+            },
+            {
+                new: true
+            }
+        );
+        if (data != null) {
+            return data;
+        } else {
+            throw new Error('noteId is not available with this userID');
+        }
+    } else {
+        throw new Error('invalid user email to collaborate');
+    }
+}
+
+//remove collaborator
+export const removeCollabNote = async (_id, body) => {
+    await client.del('getAllData');
+    const checkCollaboratorInNote = await Notes.findOne({ _id: _id, collaborator: body.collaborator })
+    console.log("collab==================>", checkCollaboratorInNote)
+    if (checkCollaboratorInNote != null) {
+        const data = await Notes.findOneAndUpdate(
+            {
+                _id: _id,
+                userID: body.userID,
+                collaborator: body.collaborator
+            },
+            {
+                $pull: { collaborator: body.collaborator }
+            },
+            {
+                new: true
+            }
+        );
+        return data;
+    } else {
+        throw new Error('this user email is not available in collaborator');
+    }
 }
