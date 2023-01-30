@@ -4614,3 +4614,1424 @@ info: ::1 - - [07/Dec/2022:06:04:46 +0000] "PUT /api/v1/notes/638d8423b9db924fb8
 
 info: ::1 - - [07/Dec/2022:06:05:10 +0000] "PUT /api/v1/notes/638d8423b9db924fb894e0c8/removeCollaborator HTTP/1.1" 202 367 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [15/Dec/2022:08:08:05 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:09:41:59 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:09:42:20 +0000] "POST /api/v1/users/login HTTP/1.1" 202 232 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:09:43:28 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 332 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:10:05:55 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:14:35:01 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 61 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: callback is not a function
+TypeError: callback is not a function
+    at _callee$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:9:5)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Dec 15 2022 20:27:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":539998},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18400061,"external":20281417,"heapTotal":125890560,"heapUsed":120314688,"rss":162983936},"pid":9196,"uid":null,"version":"v16.18.0"},"stack":"TypeError: callback is not a function\n    at _callee$ (E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js:9:5)\n    at tryCatch (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":5,"file":"E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js","function":"_callee$","line":9,"method":null,"native":false},{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: uncaughtException: callback is not a function
+TypeError: callback is not a function
+    at _callee$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:9:5)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Dec 15 2022 20:38:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":540658},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19623996,"external":21444110,"heapTotal":200601600,"heapUsed":152860952,"rss":227254272},"pid":10384,"uid":null,"version":"v16.18.0"},"stack":"TypeError: callback is not a function\n    at _callee$ (E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js:9:5)\n    at tryCatch (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":5,"file":"E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js","function":"_callee$","line":9,"method":null,"native":false},{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: uncaughtException: notesController.result is not a function
+TypeError: notesController.result is not a function
+    at _callee$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:10:21)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Dec 15 2022 20:51:59 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":541479},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19625662,"external":21458100,"heapTotal":183029760,"heapUsed":132420152,"rss":220774400},"pid":11376,"uid":null,"version":"v16.18.0"},"stack":"TypeError: notesController.result is not a function\n    at _callee$ (E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js:10:21)\n    at tryCatch (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":21,"file":"E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js","function":"_callee$","line":10,"method":null,"native":false},{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: uncaughtException: result is not defined
+ReferenceError: result is not defined
+    at _callee$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:10:5)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Dec 15 2022 21:05:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":542311},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19320420,"external":21471300,"heapTotal":196874240,"heapUsed":165457512,"rss":235962368},"pid":19348,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: result is not defined\n    at _callee$ (E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js:10:5)\n    at tryCatch (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":5,"file":"E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js","function":"_callee$","line":10,"method":null,"native":false},{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: ::1 - - [15/Dec/2022:15:37:36 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:15:41:55 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:15:42:17 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:15:44:32 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:15:50:21 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:16:12:02 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:16:14:24 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:16:16:41 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:16:24:08 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:16:49:33 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:16:51:54 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:17:40:56 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: Socket already opened
+Error: Socket already opened
+    at RedisSocket.connect (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\socket.js:63:19)
+    at Commander.connect (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\index.js:173:70)
+    at E:\fundo-project\fundoo-notes\src\config\/redis.js:16:19
+    at new Promise (<anonymous>)
+    at redis (E:\fundo-project\fundoo-notes\src\config\/redis.js:15:12)
+    at Object.<anonymous> (E:\fundo-project\fundoo-notes\src\/index.js:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\fundo-project\fundoo-notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\fundo-project\fundoo-notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\node\src\_babel-node.ts:214:12)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:22:47 {"date":"Thu Dec 15 2022 23:22:08 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":550488},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19200130,"external":21351010,"heapTotal":177868800,"heapUsed":148169504,"rss":213868544},"pid":13736,"uid":null,"version":"v16.18.0"},"stack":"Error: Socket already opened\n    at RedisSocket.connect (E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:63:19)\n    at Commander.connect (E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:173:70)\n    at E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js:16:19\n    at new Promise (<anonymous>)\n    at redis (E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js:15:12)\n    at Object.<anonymous> (E:\\fundo-project\\fundoo-notes\\src\\/index.js:34:6)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:214:12)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:22:47","trace":[{"column":19,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js","function":"RedisSocket.connect","line":63,"method":"connect","native":false},{"column":70,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander.connect","line":173,"method":"connect","native":false},{"column":19,"file":"E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js","function":null,"line":16,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js","function":"redis","line":15,"method":null,"native":false},{"column":6,"file":"E:\\fundo-project\\fundoo-notes\\src\\/index.js","function":null,"line":34,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":214,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":22,"method":null,"native":false}]}
+error: uncaughtException: Socket already opened
+Error: Socket already opened
+    at RedisSocket.connect (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\socket.js:63:19)
+    at Commander.connect (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\index.js:173:70)
+    at _callee$ (E:\fundo-project\fundoo-notes\src\config\/redis.js:7:52)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Dec 15 2022 23:27:49 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":550829},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19551829,"external":21369841,"heapTotal":198701056,"heapUsed":168384088,"rss":237424640},"pid":11296,"uid":null,"version":"v16.18.0"},"stack":"Error: Socket already opened\n    at RedisSocket.connect (E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:63:19)\n    at Commander.connect (E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:173:70)\n    at _callee$ (E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js:7:52)\n    at tryCatch (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":19,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js","function":"RedisSocket.connect","line":63,"method":"connect","native":false},{"column":70,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander.connect","line":173,"method":"connect","native":false},{"column":52,"file":"E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js","function":"_callee$","line":7,"method":null,"native":false},{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: uncaughtException: Socket already opened
+Error: Socket already opened
+    at RedisSocket.connect (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\socket.js:63:19)
+    at Commander.connect (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\index.js:173:70)
+    at E:\fundo-project\fundoo-notes\src\config\/redis.js:18:20
+    at new Promise (<anonymous>)
+    at redis (E:\fundo-project\fundoo-notes\src\config\/redis.js:15:12)
+    at Object.<anonymous> (E:\fundo-project\fundoo-notes\src\/index.js:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\fundo-project\fundoo-notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\fundo-project\fundoo-notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\node\src\_babel-node.ts:214:12)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:22:47 {"date":"Thu Dec 15 2022 23:30:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":551009},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19555759,"external":21367681,"heapTotal":181456896,"heapUsed":124697632,"rss":219230208},"pid":15308,"uid":null,"version":"v16.18.0"},"stack":"Error: Socket already opened\n    at RedisSocket.connect (E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:63:19)\n    at Commander.connect (E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:173:70)\n    at E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js:18:20\n    at new Promise (<anonymous>)\n    at redis (E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js:15:12)\n    at Object.<anonymous> (E:\\fundo-project\\fundoo-notes\\src\\/index.js:34:6)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:214:12)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:22:47","trace":[{"column":19,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js","function":"RedisSocket.connect","line":63,"method":"connect","native":false},{"column":70,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander.connect","line":173,"method":"connect","native":false},{"column":20,"file":"E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js","function":null,"line":18,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js","function":"redis","line":15,"method":null,"native":false},{"column":6,"file":"E:\\fundo-project\\fundoo-notes\\src\\/index.js","function":null,"line":34,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":214,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":22,"method":null,"native":false}]}
+error: uncaughtException: Socket already opened
+Error: Socket already opened
+    at RedisSocket.connect (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\socket.js:63:19)
+    at Commander.connect (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\index.js:173:70)
+    at E:\fundo-project\fundoo-notes\src\config\/redis.js:19:28
+    at new Promise (<anonymous>)
+    at redis (E:\fundo-project\fundoo-notes\src\config\/redis.js:15:12)
+    at Object.<anonymous> (E:\fundo-project\fundoo-notes\src\/index.js:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\fundo-project\fundoo-notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\fundo-project\fundoo-notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\node\src\_babel-node.ts:214:12)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:22:47 {"date":"Thu Dec 15 2022 23:32:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":551121},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19555709,"external":21382047,"heapTotal":186437632,"heapUsed":123921520,"rss":224288768},"pid":20316,"uid":null,"version":"v16.18.0"},"stack":"Error: Socket already opened\n    at RedisSocket.connect (E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:63:19)\n    at Commander.connect (E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:173:70)\n    at E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js:19:28\n    at new Promise (<anonymous>)\n    at redis (E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js:15:12)\n    at Object.<anonymous> (E:\\fundo-project\\fundoo-notes\\src\\/index.js:34:6)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:214:12)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:22:47","trace":[{"column":19,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js","function":"RedisSocket.connect","line":63,"method":"connect","native":false},{"column":70,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander.connect","line":173,"method":"connect","native":false},{"column":28,"file":"E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js","function":null,"line":19,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js","function":"redis","line":15,"method":null,"native":false},{"column":6,"file":"E:\\fundo-project\\fundoo-notes\\src\\/index.js","function":null,"line":34,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":214,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":22,"method":null,"native":false}]}
+error: uncaughtException: Socket already opened
+Error: Socket already opened
+    at RedisSocket.connect (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\socket.js:63:19)
+    at Commander.connect (E:\fundo-project\fundoo-notes\node_modules\@redis\client\dist\lib\client\index.js:173:70)
+    at E:\fundo-project\fundoo-notes\src\config\/redis.js:19:28
+    at new Promise (<anonymous>)
+    at redis (E:\fundo-project\fundoo-notes\src\config\/redis.js:15:12)
+    at Object.<anonymous> (E:\fundo-project\fundoo-notes\src\/index.js:34:6)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\fundo-project\fundoo-notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\fundo-project\fundoo-notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\node\src\_babel-node.ts:214:12)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:22:47 {"date":"Thu Dec 15 2022 23:34:09 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":551209},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19555601,"external":21372729,"heapTotal":183029760,"heapUsed":123792960,"rss":220717056},"pid":20824,"uid":null,"version":"v16.18.0"},"stack":"Error: Socket already opened\n    at RedisSocket.connect (E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:63:19)\n    at Commander.connect (E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:173:70)\n    at E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js:19:28\n    at new Promise (<anonymous>)\n    at redis (E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js:15:12)\n    at Object.<anonymous> (E:\\fundo-project\\fundoo-notes\\src\\/index.js:34:6)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:214:12)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:22:47","trace":[{"column":19,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js","function":"RedisSocket.connect","line":63,"method":"connect","native":false},{"column":70,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander.connect","line":173,"method":"connect","native":false},{"column":28,"file":"E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js","function":null,"line":19,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\src\\config\\/redis.js","function":"redis","line":15,"method":null,"native":false},{"column":6,"file":"E:\\fundo-project\\fundoo-notes\\src\\/index.js","function":null,"line":34,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":214,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":22,"method":null,"native":false}]}
+info: ::1 - - [15/Dec/2022:18:11:53 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 1219 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Dec/2022:18:12:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 1234 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Dec/2022:03:02:28 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 71 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: write ECONNRESET
+Error: write ECONNRESET
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:905:11)
+    at Socket._write (node:net:917:8)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at Socket.Writable.write (node:internal/streams/writable:336:10)
+    at Connection.C.sendBytes (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:527:15)
+    at Connection.C.sendHeartbeat (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:531:15)
+    at Heart.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:441:12)
+    at Heart.emit (node:events:513:28)
+    at Heart.emit (node:domain:489:12)
+    at Heart.runHeartbeat (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\heartbeat.js:88:17)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Fri Dec 16 2022 17:34:21 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":616021},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18477880,"external":20752016,"heapTotal":126414848,"heapUsed":120776144,"rss":45834240},"pid":19924,"uid":null,"version":"v16.18.0"},"stack":"Error: write ECONNRESET\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at Socket._writeGeneric (node:net:905:11)\n    at Socket._write (node:net:917:8)\n    at writeOrBuffer (node:internal/streams/writable:391:12)\n    at _write (node:internal/streams/writable:332:10)\n    at Socket.Writable.write (node:internal/streams/writable:336:10)\n    at Connection.C.sendBytes (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:527:15)\n    at Connection.C.sendHeartbeat (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:531:15)\n    at Heart.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:441:12)\n    at Heart.emit (node:events:513:28)\n    at Heart.emit (node:domain:489:12)\n    at Heart.runHeartbeat (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\heartbeat.js:88:17)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"Socket._writeGeneric","line":905,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"Socket._write","line":917,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":391,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":332,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"Socket.Writable.write","line":336,"method":"write","native":false},{"column":15,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.C.sendBytes","line":527,"method":"sendBytes","native":false},{"column":15,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.C.sendHeartbeat","line":531,"method":"sendHeartbeat","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":null,"line":441,"method":null,"native":false},{"column":28,"file":"node:events","function":"Heart.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Heart.emit","line":489,"method":"emit","native":false},{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\heartbeat.js","function":"Heart.runHeartbeat","line":88,"method":"runHeartbeat","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+info: ::1 - - [16/Dec/2022:12:28:03 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Dec/2022:12:29:07 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [18/Dec/2022:18:14:16 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 57 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [18/Dec/2022:18:14:49 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at E:\fundo-project\fundoo-notes\src\services\/notes.service.js:28:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Sun Dec 18 2022 23:44:49 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":811061},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19632943,"external":21453057,"heapTotal":183558144,"heapUsed":132494456,"rss":221077504},"pid":20288,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: res is not defined\n    at E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js","function":null,"line":28,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: ::1 - - [18/Dec/2022:18:20:24 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at E:\fundo-project\fundoo-notes\src\services\/notes.service.js:28:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Sun Dec 18 2022 23:50:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":811397},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19640559,"external":21436097,"heapTotal":183246848,"heapUsed":160757888,"rss":221851648},"pid":19756,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: res is not defined\n    at E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js","function":null,"line":28,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: ::1 - - [18/Dec/2022:18:20:48 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at E:\fundo-project\fundoo-notes\src\services\/notes.service.js:28:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Sun Dec 18 2022 23:50:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":811420},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18394123,"external":21589224,"heapTotal":192483328,"heapUsed":142575008,"rss":218804224},"pid":14372,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: res is not defined\n    at E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js:28:17\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js","function":null,"line":28,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: ::1 - - [18/Dec/2022:18:23:05 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at E:\fundo-project\fundoo-notes\src\services\/notes.service.js:31:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Sun Dec 18 2022 23:53:05 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":811557},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19633938,"external":21468468,"heapTotal":184606720,"heapUsed":132560896,"rss":222400512},"pid":20120,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: res is not defined\n    at E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js:31:17\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js","function":null,"line":31,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: ::1 - - [18/Dec/2022:18:26:50 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at E:\fundo-project\fundoo-notes\src\services\/notes.service.js:31:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Sun Dec 18 2022 23:56:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":811782},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19632973,"external":21453087,"heapTotal":184344576,"heapUsed":132628656,"rss":222244864},"pid":20892,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: res is not defined\n    at E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js:31:17\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js","function":null,"line":31,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: ::1 - - [18/Dec/2022:18:33:25 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at E:\fundo-project\fundoo-notes\src\services\/notes.service.js:31:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Mon Dec 19 2022 00:03:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":812177},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19649398,"external":21444936,"heapTotal":186654720,"heapUsed":163928120,"rss":225570816},"pid":18392,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: res is not defined\n    at E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js:31:17\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js","function":null,"line":31,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: ::1 - - [18/Dec/2022:18:34:06 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (E:\fundo-project\fundoo-notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\fundo-project\fundoo-notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\fundo-project\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (E:\fundo-project\fundoo-notes\node_modules\express\lib\response.js:162:21)
+    at E:\fundo-project\fundoo-notes\src\services\/notes.service.js:31:33
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Mon Dec 19 2022 00:04:07 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":812219},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19661069,"external":21497035,"heapTotal":183296000,"heapUsed":133021168,"rss":223457280},"pid":13344,"uid":null,"version":"v16.18.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:387:5)\n    at ServerResponse.setHeader (node:_http_outgoing:644:11)\n    at ServerResponse.header (E:\\fundo-project\\fundoo-notes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\fundo-project\\fundoo-notes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\fundo-project\\fundoo-notes\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (E:\\fundo-project\\fundoo-notes\\node_modules\\express\\lib\\response.js:162:21)\n    at E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js:31:33\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":387,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":644,"method":"setHeader","native":false},{"column":10,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":33,"file":"E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js","function":null,"line":31,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: ::1 - - [18/Dec/2022:18:36:47 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [18/Dec/2022:18:38:31 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Dec/2022:02:49:48 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Dec/2022:02:50:50 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Dec/2022:03:04:25 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: write ECONNRESET
+Error: write ECONNRESET
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:905:11)
+    at Socket._write (node:net:917:8)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at Socket.Writable.write (node:internal/streams/writable:336:10)
+    at Connection.C.sendBytes (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:527:15)
+    at Connection.C.sendHeartbeat (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:531:15)
+    at Heart.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:441:12)
+    at Heart.emit (node:events:513:28)
+    at Heart.emit (node:domain:489:12)
+    at Heart.runHeartbeat (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\heartbeat.js:88:17)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Mon Dec 19 2022 22:54:57 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":894469},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18435973,"external":20236125,"heapTotal":127201280,"heapUsed":120912704,"rss":162082816},"pid":11968,"uid":null,"version":"v16.18.0"},"stack":"Error: write ECONNRESET\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at Socket._writeGeneric (node:net:905:11)\n    at Socket._write (node:net:917:8)\n    at writeOrBuffer (node:internal/streams/writable:391:12)\n    at _write (node:internal/streams/writable:332:10)\n    at Socket.Writable.write (node:internal/streams/writable:336:10)\n    at Connection.C.sendBytes (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:527:15)\n    at Connection.C.sendHeartbeat (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:531:15)\n    at Heart.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:441:12)\n    at Heart.emit (node:events:513:28)\n    at Heart.emit (node:domain:489:12)\n    at Heart.runHeartbeat (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\heartbeat.js:88:17)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"Socket._writeGeneric","line":905,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"Socket._write","line":917,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":391,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":332,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"Socket.Writable.write","line":336,"method":"write","native":false},{"column":15,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.C.sendBytes","line":527,"method":"sendBytes","native":false},{"column":15,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.C.sendHeartbeat","line":531,"method":"sendHeartbeat","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":null,"line":441,"method":null,"native":false},{"column":28,"file":"node:events","function":"Heart.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Heart.emit","line":489,"method":"emit","native":false},{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\heartbeat.js","function":"Heart.runHeartbeat","line":88,"method":"runHeartbeat","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+info: ::1 - - [19/Dec/2022:17:38:19 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Dec/2022:17:51:13 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Dec/2022:17:54:04 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Dec/2022:17:58:29 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [19/Dec/2022:18:00:47 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: write ECONNRESET
+Error: write ECONNRESET
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:905:11)
+    at Socket._write (node:net:917:8)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at Socket.Writable.write (node:internal/streams/writable:336:10)
+    at Connection.C.sendBytes (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:527:15)
+    at Connection.C.sendHeartbeat (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:531:15)
+    at Heart.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:441:12)
+    at Heart.emit (node:events:513:28)
+    at Heart.emit (node:domain:489:12)
+    at Heart.runHeartbeat (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\heartbeat.js:88:17)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) {"date":"Tue Dec 20 2022 02:48:32 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":908484},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18405101,"external":20199323,"heapTotal":125890560,"heapUsed":119100832,"rss":162439168},"pid":1856,"uid":null,"version":"v16.18.0"},"stack":"Error: write ECONNRESET\n    at afterWriteDispatched (node:internal/stream_base_commons:160:15)\n    at writeGeneric (node:internal/stream_base_commons:151:3)\n    at Socket._writeGeneric (node:net:905:11)\n    at Socket._write (node:net:917:8)\n    at writeOrBuffer (node:internal/streams/writable:391:12)\n    at _write (node:internal/streams/writable:332:10)\n    at Socket.Writable.write (node:internal/streams/writable:336:10)\n    at Connection.C.sendBytes (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:527:15)\n    at Connection.C.sendHeartbeat (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:531:15)\n    at Heart.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:441:12)\n    at Heart.emit (node:events:513:28)\n    at Heart.emit (node:domain:489:12)\n    at Heart.runHeartbeat (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\heartbeat.js:88:17)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","trace":[{"column":15,"file":"node:internal/stream_base_commons","function":"afterWriteDispatched","line":160,"method":null,"native":false},{"column":3,"file":"node:internal/stream_base_commons","function":"writeGeneric","line":151,"method":null,"native":false},{"column":11,"file":"node:net","function":"Socket._writeGeneric","line":905,"method":"_writeGeneric","native":false},{"column":8,"file":"node:net","function":"Socket._write","line":917,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":391,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":332,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"Socket.Writable.write","line":336,"method":"write","native":false},{"column":15,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.C.sendBytes","line":527,"method":"sendBytes","native":false},{"column":15,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.C.sendHeartbeat","line":531,"method":"sendHeartbeat","native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":null,"line":441,"method":null,"native":false},{"column":28,"file":"node:events","function":"Heart.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Heart.emit","line":489,"method":"emit","native":false},{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\heartbeat.js","function":"Heart.runHeartbeat","line":88,"method":"runHeartbeat","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":559,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":502,"method":null,"native":false}]}
+info: ::1 - - [20/Dec/2022:02:43:03 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [20/Dec/2022:02:44:34 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 87 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [20/Dec/2022:02:46:20 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 51 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [20/Dec/2022:03:07:04 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [20/Dec/2022:03:19:15 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: error is not defined
+ReferenceError: error is not defined
+    at callback (E:\fundo-project\fundoo-notes\src\controllers\/notes.controller.js:37:19)
+    at _callee$ (E:\fundo-project\fundoo-notes\src\services\/notes.service.js:17:6)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Tue Dec 20 2022 08:52:13 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":930305},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19620616,"external":21471392,"heapTotal":184868864,"heapUsed":133052136,"rss":222371840},"pid":12356,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: error is not defined\n    at callback (E:\\fundo-project\\fundoo-notes\\src\\controllers\\/notes.controller.js:37:19)\n    at _callee$ (E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js:17:6)\n    at tryCatch (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":19,"file":"E:\\fundo-project\\fundoo-notes\\src\\controllers\\/notes.controller.js","function":"callback","line":37,"method":null,"native":false},{"column":6,"file":"E:\\fundo-project\\fundoo-notes\\src\\services\\/notes.service.js","function":"_callee$","line":17,"method":null,"native":false},{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: ::1 - - [20/Dec/2022:03:23:44 +0000] "POST /api/v1/notes/ HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:03:47:23 +0000] "POST /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:03:47:58 +0000] "POST /api/v1/users/login HTTP/1.1" 202 49 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:03:49:17 +0000] "POST /api/v1/users/login HTTP/1.1" 202 49 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:06:52:47 +0000] "POST /api/v1/users/register HTTP/1.1" 201 321 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:06:53:15 +0000] "POST /api/v1/users/login HTTP/1.1" 202 231 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:06:53:57 +0000] "GET /api/v1/notes HTTP/1.1" 202 1743 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:06:54:59 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:06:55:54 +0000] "POST /api/v1/users/register HTTP/1.1" 201 322 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:06:56:05 +0000] "POST /api/v1/users/login HTTP/1.1" 202 232 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:06:56:25 +0000] "GET /api/v1/notes HTTP/1.1" 202 838 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:06:58:17 +0000] "POST /api/v1/users/register HTTP/1.1" 201 318 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:06:58:29 +0000] "POST /api/v1/users/login HTTP/1.1" 202 227 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:06:58:49 +0000] "GET /api/v1/notes HTTP/1.1" 202 576 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:06:59:48 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:07:00:03 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:07:00:23 +0000] "GET /api/v1/notes HTTP/1.1" 202 1361 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:07:01:11 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:07:01:18 +0000] "POST /api/v1/users/register HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:07:02:14 +0000] "POST /api/v1/users/register HTTP/1.1" 201 318 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:07:05:31 +0000] "POST /api/v1/users/login HTTP/1.1" 202 84 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Dec/2022:07:06:04 +0000] "POST /api/v1/users/register HTTP/1.1" 201 318 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Mon Jan 23 2023 17:23:59 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2589757},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18710546,"external":20611631,"heapTotal":175435776,"heapUsed":124538032,"rss":209412096},"pid":21752,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Mon Jan 23 2023 17:27:23 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2589960},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18704642,"external":20548256,"heapTotal":178843648,"heapUsed":118982880,"rss":215588864},"pid":12840,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Mon Jan 23 2023 17:29:53 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2590111},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18710546,"external":20570999,"heapTotal":179367936,"heapUsed":122813272,"rss":215134208},"pid":21736,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Wed Jan 25 2023 11:58:54 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2743057},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18710546,"external":20551940,"heapTotal":179367936,"heapUsed":122019472,"rss":216023040},"pid":8812,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Wed Jan 25 2023 12:07:30 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2743573},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19508629,"external":21320551,"heapTotal":182509568,"heapUsed":124824496,"rss":219533312},"pid":13868,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Wed Jan 25 2023 12:08:50 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2743653},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19485369,"external":21456826,"heapTotal":179888128,"heapUsed":123542792,"rss":217587712},"pid":5548,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Wed Jan 25 2023 12:09:29 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2743693},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19509673,"external":21327685,"heapTotal":184025088,"heapUsed":153461776,"rss":222617600},"pid":18004,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Wed Jan 25 2023 12:10:24 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2743748},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19504056,"external":21344106,"heapTotal":180408320,"heapUsed":131142408,"rss":217985024},"pid":14180,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Wed Jan 25 2023 12:11:10 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2743794},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19504005,"external":21324119,"heapTotal":180408320,"heapUsed":129800248,"rss":217980928},"pid":11616,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Wed Jan 25 2023 12:12:33 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2743877},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19504482,"external":21325009,"heapTotal":181981184,"heapUsed":129844352,"rss":219660288},"pid":17856,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Wed Jan 25 2023 12:13:08 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2743911},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19502648,"external":21322762,"heapTotal":181977088,"heapUsed":129327472,"rss":219721728},"pid":2512,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Wed Jan 25 2023 12:14:26 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2743989},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19502660,"external":21332002,"heapTotal":183812096,"heapUsed":129093336,"rss":221323264},"pid":6552,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Wed Jan 25 2023 12:14:59 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2744023},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19479912,"external":21322038,"heapTotal":178569216,"heapUsed":129225992,"rss":216023040},"pid":15088,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Wed Jan 25 2023 12:15:44 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2744067},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19502386,"external":21314308,"heapTotal":181452800,"heapUsed":124742160,"rss":218497024},"pid":22308,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Wed Jan 25 2023 12:16:17 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2744101},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18710546,"external":20546968,"heapTotal":181465088,"heapUsed":122282856,"rss":217378816},"pid":17452,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Wed Jan 25 2023 12:29:07 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2744871},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19510578,"external":21306116,"heapTotal":197296128,"heapUsed":170525840,"rss":235536384},"pid":6320,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16) {"date":"Wed Jan 25 2023 12:37:58 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2745402},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18710546,"external":20522468,"heapTotal":177795072,"heapUsed":122237536,"rss":214134784},"pid":2684,"uid":null,"version":"v16.18.0"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1278,"method":"afterConnect [as oncomplete]","native":false}]}
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:07:43:31 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:07:45:14 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:07:46:52 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:07:47:49 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:07:51:37 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:07:54:40 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:07:55:13 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:07:56:35 +0000] "POST /api/v1/users/register HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:07:59:35 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:00:52 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:04:03 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:11:02 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:12:07 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:12:32 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:30:56 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:38:48 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:38:48 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:39:39 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:39:39 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:40:57 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:40:57 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:42:07 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:42:07 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:44:49 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:08:44:49 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:09:07:37 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:09:07:37 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:13:26:44 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:13:26:44 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:13:26:44 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:13:29:38 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:13:30:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:13:31:41 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:13:33:39 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:13:41:53 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:13:42:31 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:13:43:39 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [26/Jan/2023:13:45:55 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:04:01:10 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:04:01:10 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:04:01:10 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:04:02:58 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:04:02:58 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:04:02:58 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:29:07 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:29:07 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:29:07 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:29:07 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:29:51 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:29:51 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:29:51 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:29:51 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:37:52 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:37:52 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:37:52 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:37:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:37:52 +0000] "GET /api/v1/notes/63d3d3b0e92f79534804b7ca HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:39:15 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:39:15 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:39:15 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:39:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:39:15 +0000] "GET /api/v1/notes/63d3d403b6f66359ac5b2547 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:39:47 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:39:47 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:39:47 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:39:47 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:39:47 +0000] "GET /api/v1/notes/63d3d423ee0c4e589c098ef0 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:42:20 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:42:20 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:42:20 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:42:20 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:42:20 +0000] "GET /api/v1/notes/63d3d4bcead7063e50e665d6 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:44:47 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:44:47 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:44:47 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:44:47 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:44:48 +0000] "GET /api/v1/notes/63d3d54f7df2c45a4c26d651 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:56:30 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:56:30 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:56:30 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:56:30 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:56:30 +0000] "GET /api/v1/notes/63d3d80e0000522aa05da4f3 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:56:30 +0000] "PUT /api/v1/notes/63d3d80e0000522aa05da4f3 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:58:17 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:58:17 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:58:17 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:58:17 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:58:17 +0000] "GET /api/v1/notes/63d3d879961feb09d00ccae3 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:58:17 +0000] "PUT /api/v1/notes/63d3d879961feb09d00ccae3 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:58:17 +0000] "PUT /api/v1/notes/63d3d879961feb09d00ccae3/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:59:56 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:59:56 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:59:56 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:59:56 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:59:56 +0000] "GET /api/v1/notes/63d3d8dcf420c25c842993db HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:59:56 +0000] "PUT /api/v1/notes/63d3d8dcf420c25c842993db HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:13:59:56 +0000] "PUT /api/v1/notes/63d3d8dcf420c25c842993db/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:05 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:06 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:06 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:06 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:06 +0000] "GET /api/v1/notes/63d3d92232af7f2ea4283131 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:06 +0000] "PUT /api/v1/notes/63d3d92232af7f2ea4283131 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:06 +0000] "PUT /api/v1/notes/63d3d92232af7f2ea4283131/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:06 +0000] "PUT /api/v1/notes/63d3d92232af7f2ea4283131/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:51 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:52 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:52 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:52 +0000] "GET /api/v1/notes/63d3d950e5cbba35ec837d0e HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:52 +0000] "PUT /api/v1/notes/63d3d950e5cbba35ec837d0e HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:52 +0000] "PUT /api/v1/notes/63d3d950e5cbba35ec837d0e/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:52 +0000] "PUT /api/v1/notes/63d3d950e5cbba35ec837d0e/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:01:52 +0000] "DELETE /api/v1/notes/63d3d950e5cbba35ec837d0e HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:17 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:17 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:17 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:17 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:17 +0000] "GET /api/v1/notes/63d3d969256aca3534365dc3 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:17 +0000] "PUT /api/v1/notes/63d3d969256aca3534365dc3 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:17 +0000] "PUT /api/v1/notes/63d3d969256aca3534365dc3/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:17 +0000] "PUT /api/v1/notes/63d3d969256aca3534365dc3/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:17 +0000] "DELETE /api/v1/notes/63d3d969256aca3534365dc3 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:49 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:49 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:49 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:49 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:49 +0000] "GET /api/v1/notes/63d3d98939ce4c3cd0bdc131 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:49 +0000] "PUT /api/v1/notes/63d3d98939ce4c3cd0bdc131 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:49 +0000] "PUT /api/v1/notes/63d3d98939ce4c3cd0bdc131/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:49 +0000] "PUT /api/v1/notes/63d3d98939ce4c3cd0bdc131/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:02:49 +0000] "DELETE /api/v1/notes/63d3d98939ce4c3cd0bdc131 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:05:28 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:05:28 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:05:28 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:05:28 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:05:28 +0000] "GET /api/v1/notes/63d3da2892c5134468c1199e HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:05:28 +0000] "PUT /api/v1/notes/63d3da2892c5134468c1199e HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:05:28 +0000] "PUT /api/v1/notes/63d3da2892c5134468c1199e/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:05:28 +0000] "PUT /api/v1/notes/63d3da2892c5134468c1199e/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:05:28 +0000] "DELETE /api/v1/notes/63d3da2892c5134468c1199e HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:05:28 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:07:16 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:07:16 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:07:16 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:07:16 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:07:16 +0000] "GET /api/v1/notes/63d3da94c3245c30ec416297 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:07:16 +0000] "PUT /api/v1/notes/63d3da94c3245c30ec416297 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:07:16 +0000] "PUT /api/v1/notes/63d3da94c3245c30ec416297/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:07:16 +0000] "PUT /api/v1/notes/63d3da94c3245c30ec416297/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:07:16 +0000] "DELETE /api/v1/notes/63d3da94c3245c30ec416297 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:07:16 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:07:17 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:10:16 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:10:16 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:10:17 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:10:17 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:10:17 +0000] "GET /api/v1/notes/63d3db48590c7e4deca97631 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:10:17 +0000] "PUT /api/v1/notes/63d3db48590c7e4deca97631 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:10:17 +0000] "PUT /api/v1/notes/63d3db48590c7e4deca97631/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:10:17 +0000] "PUT /api/v1/notes/63d3db48590c7e4deca97631/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:10:17 +0000] "DELETE /api/v1/notes/63d3db48590c7e4deca97631 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:10:17 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:10:17 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:10:17 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:06 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:06 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:06 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:06 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:06 +0000] "GET /api/v1/notes/63d3dbf2f3aa343d6049bdfd HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:06 +0000] "PUT /api/v1/notes/63d3dbf2f3aa343d6049bdfd HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:06 +0000] "PUT /api/v1/notes/63d3dbf2f3aa343d6049bdfd/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:06 +0000] "PUT /api/v1/notes/63d3dbf2f3aa343d6049bdfd/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:06 +0000] "DELETE /api/v1/notes/63d3dbf2f3aa343d6049bdfd HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:06 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:06 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:06 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:06 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:40 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:41 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:41 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:41 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:41 +0000] "GET /api/v1/notes/63d3dc1513a55b53109b70eb HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:41 +0000] "PUT /api/v1/notes/63d3dc1513a55b53109b70eb HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:41 +0000] "PUT /api/v1/notes/63d3dc1513a55b53109b70eb/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:41 +0000] "PUT /api/v1/notes/63d3dc1513a55b53109b70eb/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:41 +0000] "DELETE /api/v1/notes/63d3dc1513a55b53109b70eb HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:41 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:41 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:41 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:13:41 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:18:13 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:18:13 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:18:13 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:18:13 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:18:13 +0000] "GET /api/v1/notes/63d3dd259ca9d23c782085dd HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:18:13 +0000] "PUT /api/v1/notes/63d3dd259ca9d23c782085dd HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:18:13 +0000] "PUT /api/v1/notes/63d3dd259ca9d23c782085dd/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:18:13 +0000] "PUT /api/v1/notes/63d3dd259ca9d23c782085dd/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:18:13 +0000] "DELETE /api/v1/notes/63d3dd259ca9d23c782085dd HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:18:13 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:18:13 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:18:13 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:18:13 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:18:13 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:19:05 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:19:06 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:19:06 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:19:06 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:19:06 +0000] "GET /api/v1/notes/63d3dd5a6722502ce03e4e39 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:19:06 +0000] "PUT /api/v1/notes/63d3dd5a6722502ce03e4e39 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:19:06 +0000] "PUT /api/v1/notes/63d3dd5a6722502ce03e4e39/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:19:06 +0000] "PUT /api/v1/notes/63d3dd5a6722502ce03e4e39/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:19:06 +0000] "DELETE /api/v1/notes/63d3dd5a6722502ce03e4e39 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:19:06 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:19:06 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:19:06 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:19:06 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:19:06 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:55 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:55 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:55 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:55 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:55 +0000] "GET /api/v1/notes/63d3dfe324f8eb339cf38d50 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:55 +0000] "PUT /api/v1/notes/63d3dfe324f8eb339cf38d50 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:55 +0000] "PUT /api/v1/notes/63d3dfe324f8eb339cf38d50/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:55 +0000] "PUT /api/v1/notes/63d3dfe324f8eb339cf38d50/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:55 +0000] "DELETE /api/v1/notes/63d3dfe324f8eb339cf38d50 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:55 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:55 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:55 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:55 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:55 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:29:56 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:17 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:17 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:17 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:17 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:17 +0000] "GET /api/v1/notes/63d3e071e1697d59c84d62d2 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:17 +0000] "PUT /api/v1/notes/63d3e071e1697d59c84d62d2 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:18 +0000] "PUT /api/v1/notes/63d3e071e1697d59c84d62d2/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:18 +0000] "PUT /api/v1/notes/63d3e071e1697d59c84d62d2/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:18 +0000] "GET /api/v1/notes/63d3e071e1697d59c84d62d2 HTTP/1.1" 200 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:18 +0000] "DELETE /api/v1/notes/63d3e071e1697d59c84d62d2 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:18 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:18 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:18 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:18 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:32:18 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:04 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:04 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:05 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:05 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:05 +0000] "GET /api/v1/notes/63d3e0a1768e814f205839a4 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:05 +0000] "PUT /api/v1/notes/63d3e0a1768e814f205839a4 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:05 +0000] "PUT /api/v1/notes/63d3e0a1768e814f205839a4/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:05 +0000] "PUT /api/v1/notes/63d3e0a1768e814f205839a4/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:05 +0000] "DELETE /api/v1/notes/63d3e0a1768e814f205839a4 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:05 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:05 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:05 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:05 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:05 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:46 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:46 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:46 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:46 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:46 +0000] "GET /api/v1/notes/63d3e0ca51cd435af0c6c762 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:46 +0000] "PUT /api/v1/notes/63d3e0ca51cd435af0c6c762 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:46 +0000] "PUT /api/v1/notes/63d3e0ca51cd435af0c6c762/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:47 +0000] "PUT /api/v1/notes/63d3e0ca51cd435af0c6c762/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:47 +0000] "DELETE /api/v1/notes/63d3e0ca51cd435af0c6c762 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:47 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:47 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:47 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:47 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:33:47 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:02 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:03 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:03 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:03 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:03 +0000] "GET /api/v1/notes/63d3e153220d6605401ea529 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:03 +0000] "PUT /api/v1/notes/63d3e153220d6605401ea529 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:03 +0000] "PUT /api/v1/notes/63d3e153220d6605401ea529/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:03 +0000] "PUT /api/v1/notes/63d3e153220d6605401ea529/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:03 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:03 +0000] "DELETE /api/v1/notes/63d3e153220d6605401ea529 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:03 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:03 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:03 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:03 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:03 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:48 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:49 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:49 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:49 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:49 +0000] "GET /api/v1/notes/63d3e181e1185a07f49ffda9 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:49 +0000] "PUT /api/v1/notes/63d3e181e1185a07f49ffda9 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:49 +0000] "PUT /api/v1/notes/63d3e181e1185a07f49ffda9/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:49 +0000] "PUT /api/v1/notes/63d3e181e1185a07f49ffda9/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:49 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:49 +0000] "DELETE /api/v1/notes/63d3e181e1185a07f49ffda9 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:49 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:49 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:49 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:49 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:36:49 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "GET /api/v1/notes/63d3e20e09de8e0560716890 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "PUT /api/v1/notes/63d3e20e09de8e0560716890 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "PUT /api/v1/notes/63d3e20e09de8e0560716890/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "PUT /api/v1/notes/63d3e20e09de8e0560716890/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:39:10 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:56 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:56 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:56 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:56 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:56 +0000] "GET /api/v1/notes/63d3e2b4d212a42068b3ad7c HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:56 +0000] "PUT /api/v1/notes/63d3e2b4d212a42068b3ad7c HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:56 +0000] "PUT /api/v1/notes/63d3e2b4d212a42068b3ad7c/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:56 +0000] "PUT /api/v1/notes/63d3e2b4d212a42068b3ad7c/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:56 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:57 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:57 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:57 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:57 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:57 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:41:57 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:11 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:12 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:12 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:12 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:12 +0000] "GET /api/v1/notes/63d3e33c1c95105cac403895 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:12 +0000] "PUT /api/v1/notes/63d3e33c1c95105cac403895 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:12 +0000] "PUT /api/v1/notes/63d3e33c1c95105cac403895/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:12 +0000] "PUT /api/v1/notes/63d3e33c1c95105cac403895/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:12 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:12 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:12 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:12 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:12 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:12 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:44:12 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:47:33 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:47:33 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:47:33 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:47:33 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:47:33 +0000] "GET /api/v1/notes/63d3e40546cb8421206bffb3 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:47:33 +0000] "PUT /api/v1/notes/63d3e40546cb8421206bffb3 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:47:33 +0000] "PUT /api/v1/notes/63d3e40546cb8421206bffb3/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:47:34 +0000] "PUT /api/v1/notes/63d3e40546cb8421206bffb3/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:47:34 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:47:34 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:47:34 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:47:34 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:47:34 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:47:34 +0000] "DELETE /api/v1/notes/63d3e40546cb8421206bffb3 HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:11 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:11 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:11 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:11 +0000] "GET /api/v1/notes/63d3e4a36902005a00a5da25 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:12 +0000] "PUT /api/v1/notes/63d3e4a36902005a00a5da25 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:12 +0000] "PUT /api/v1/notes/63d3e4a36902005a00a5da25/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:12 +0000] "PUT /api/v1/notes/63d3e4a36902005a00a5da25/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:12 +0000] "DELETE /api/v1/notes/63d3e4a36902005a00a5da25 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:12 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:12 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:12 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:12 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:12 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:50:12 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:29 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:29 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:29 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:29 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:30 +0000] "GET /api/v1/notes/63d3e695edcb544088c8e86e HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:30 +0000] "PUT /api/v1/notes/63d3e695edcb544088c8e86e HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:30 +0000] "PUT /api/v1/notes/63d3e695edcb544088c8e86e/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:30 +0000] "PUT /api/v1/notes/63d3e695edcb544088c8e86e/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:30 +0000] "DELETE /api/v1/notes/63d3e695edcb544088c8e86e HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:30 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:30 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:30 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:30 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:30 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:14:58:30 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:38 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:38 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:38 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:38 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:38 +0000] "GET /api/v1/notes/63d3e716af65f459a8acf79e HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:38 +0000] "PUT /api/v1/notes/63d3e716af65f459a8acf79e HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:38 +0000] "PUT /api/v1/notes/63d3e716af65f459a8acf79e/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:39 +0000] "PUT /api/v1/notes/63d3e716af65f459a8acf79e/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:39 +0000] "DELETE /api/v1/notes/63d3e716af65f459a8acf79e HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:39 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:39 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:39 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:39 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:39 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:00:39 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "GET /api/v1/notes/63d3e76ea4825f569820a4fe HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "PUT /api/v1/notes/63d3e76ea4825f569820a4fe HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "PUT /api/v1/notes/63d3e76ea4825f569820a4fe/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "PUT /api/v1/notes/63d3e76ea4825f569820a4fe/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "DELETE /api/v1/notes/63d3e76ea4825f569820a4fe HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Jan/2023:15:02:06 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "GET /api/v1/notes/63d498b0d326d536142c2219 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "PUT /api/v1/notes/63d498b0d326d536142c2219 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "PUT /api/v1/notes/63d498b0d326d536142c2219/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "PUT /api/v1/notes/63d498b0d326d536142c2219/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "DELETE /api/v1/notes/63d498b0d326d536142c2219 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [28/Jan/2023:03:38:24 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "PUT /api/v1/notes/undefined/isArchive HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "PUT /api/v1/notes/undefined/isTrash HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:01:05 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:26 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:27 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:27 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:27 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:27 +0000] "GET /api/v1/notes/63d77a47b57e82522488908b HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:27 +0000] "PUT /api/v1/notes/63d77a47b57e82522488908b HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:27 +0000] "PUT /api/v1/notes/63d77a47b57e82522488908b/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:27 +0000] "PUT /api/v1/notes/63d77a47b57e82522488908b/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:27 +0000] "DELETE /api/v1/notes/63d77a47b57e82522488908b HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:27 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:27 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:27 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:27 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:27 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:05:27 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:49 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:49 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:49 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:49 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:49 +0000] "GET /api/v1/notes/63d77b11fa0b7d1da053aec0 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:49 +0000] "PUT /api/v1/notes/63d77b11fa0b7d1da053aec0 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:50 +0000] "PUT /api/v1/notes/63d77b11fa0b7d1da053aec0/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:50 +0000] "PUT /api/v1/notes/63d77b11fa0b7d1da053aec0/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:50 +0000] "DELETE /api/v1/notes/63d77b11fa0b7d1da053aec0 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:50 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:50 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:50 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:50 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:50 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:08:50 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:50 +0000] "POST /api/v1/users/register HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:50 +0000] "POST /api/v1/users/login HTTP/1.1" 202 228 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:51 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 313 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:51 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:51 +0000] "GET /api/v1/notes/63d77b4f1459383280bbf521 HTTP/1.1" 200 312 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:51 +0000] "PUT /api/v1/notes/63d77b4f1459383280bbf521 HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:51 +0000] "PUT /api/v1/notes/63d77b4f1459383280bbf521/isArchive HTTP/1.1" 202 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:51 +0000] "PUT /api/v1/notes/63d77b4f1459383280bbf521/isTrash HTTP/1.1" 202 326 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:51 +0000] "DELETE /api/v1/notes/63d77b4f1459383280bbf521 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:51 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:51 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:51 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:51 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:51 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [30/Jan/2023:08:09:51 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
