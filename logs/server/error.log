@@ -18461,3 +18461,275 @@ error:
     method - GET 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2023-01-30T08:09:51.590Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-01T07:13:38.277Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-01T07:13:38.324Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Email
+    at _callee2$ (E:\fundo-project\fundoo-notes\src\services\user.service.js:36:11)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-01T07:13:38.362Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-01T07:13:38.387Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-01T07:13:38.432Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.<anonymous>.module.exports [as verify] (E:\fundo-project\fundoo-notes\node_modules\jsonwebtoken\verify.js:53:17)
+    at verify (E:\fundo-project\fundoo-notes\src\middlewares\auth.middleware.js:24:28)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\fundo-project\fundoo-notes\src\middlewares\auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:284:15
+    at param (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\fundo-project\fundoo-notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\fundo-project\fundoo-notes\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\fundo-project\fundoo-notes\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (E:\fundo-project\fundoo-notes\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at cors (E:\fundo-project\fundoo-notes\node_modules\cors\lib\index.js:188:7)
+    at E:\fundo-project\fundoo-notes\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\fundo-project\fundoo-notes\node_modules\cors\lib\index.js:214:15)
+    at E:\fundo-project\fundoo-notes\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (E:\fundo-project\fundoo-notes\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (E:\fundo-project\fundoo-notes\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (E:\fundo-project\fundoo-notes\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at query (E:\fundo-project\fundoo-notes\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at Function.handle (E:\fundo-project\fundoo-notes\node_modules\express\lib\application.js:181:10) 
+    url - /api/v1/notes/undefined 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-01T07:13:38.481Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundoodb_test.users index: email_1 dup key: { email: "sunil07@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-03T11:26:40.493Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\fundo-project\fundoo-notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\fundo-project\fundoo-notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\fundo-project\fundoo-notes\node_modules\express\lib\response.js:278:15)
+    at json (E:\fundo-project\fundoo-notes\src\middlewares\error.middleware.js:36:26)
+    at Layer.handle_error (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:326:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:646:15
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:265:14)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:646:15
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:136:14)
+    at next (E:\fundo-project\fundoo-notes\src\controllers\user.controller.js:19:5)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-03T11:26:40.506Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (E:\fundo-project\fundoo-notes\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:24:28)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\fundo-project\fundoo-notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\fundo-project\fundoo-notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:328:13)
+    at E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\fundo-project\fundoo-notes\node_modules\express\lib\router\index.js:280:10)
+    at E:\fundo-project\fundoo-notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\fundo-project\fundoo-notes\node_modules\raw-body\index.js:231:16)
+    at done (E:\fundo-project\fundoo-notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\fundo-project\fundoo-notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-05T13:54:40.107Z"}
+error: uncaughtException: logger is not defined
+ReferenceError: logger is not defined
+    at E:\fundo-project\fundoo-notes\src\utils\/rabbitmq.js:46:9
+    at E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\callback_model.js:44:29
+    at E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\callback_model.js:58:7
+    at E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\fundo-project\fundoo-notes\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Sun Feb 05 2023 19:47:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":3721596},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19567390,"external":21371080,"heapTotal":181997568,"heapUsed":126618880,"rss":219009024},"pid":12504,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: logger is not defined\n    at E:\\fundo-project\\fundoo-notes\\src\\utils\\/rabbitmq.js:46:9\n    at E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2023-02-05T14:17:24.163Z","trace":[{"column":9,"file":"E:\\fundo-project\\fundoo-notes\\src\\utils\\/rabbitmq.js","function":null,"line":46,"method":null,"native":false},{"column":29,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: logger is not defined
+ReferenceError: logger is not defined
+    at _callee$ (E:\fundo-project\fundoo-notes\src\controllers\/user.controller.js:20:5)
+    at tryCatch (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\fundo-project\fundoo-notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Sun Feb 05 2023 19:48:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":3721690},"process":{"argv":["node","E:\\fundo-project\\fundoo-notes\\src\\index.js"],"cwd":"E:\\fundo-project\\fundoo-notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19626038,"external":21437920,"heapTotal":178855936,"heapUsed":132025456,"rss":216248320},"pid":10068,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: logger is not defined\n    at _callee$ (E:\\fundo-project\\fundoo-notes\\src\\controllers\\/user.controller.js:20:5)\n    at tryCatch (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-02-05T14:18:58.093Z","trace":[{"column":5,"file":"E:\\fundo-project\\fundoo-notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":20,"method":null,"native":false},{"column":17,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"E:\\fundo-project\\fundoo-notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}

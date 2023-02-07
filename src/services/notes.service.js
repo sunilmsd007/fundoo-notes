@@ -139,7 +139,6 @@ export const pinNote = async (_id, userID) => {
 export const collabNote = async (_id, body) => {
     await client.del('getAllData');
     const checkCollaborator = await User.findOne({ email: body.collaborator })
-    console.log("collab==================>", checkCollaborator)
     if (checkCollaborator != null) {
         const data = await Notes.findOneAndUpdate(
             {
@@ -167,7 +166,6 @@ export const collabNote = async (_id, body) => {
 export const removeCollabNote = async (_id, body) => {
     await client.del('getAllData');
     const checkCollaboratorInNote = await Notes.findOne({ _id: _id, collaborator: body.collaborator })
-    console.log("collab==================>", checkCollaboratorInNote)
     if (checkCollaboratorInNote != null) {
         const data = await Notes.findOneAndUpdate(
             {

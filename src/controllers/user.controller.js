@@ -1,5 +1,6 @@
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
+import logger from '../config/logger';
 
 /**
  * Controller to register a new user
@@ -15,8 +16,13 @@ export const register = async (req, res, next) => {
       data: data,
       message: 'User created successfully'
     });
+    logger.info("User created successfully ")
   } catch (error) {
-    next(error);
+    logger.error(error)
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
 
@@ -26,7 +32,7 @@ export const register = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
- export const login = async (req, res, next) => {
+export const login = async (req, res, next) => {
   try {
     const data = await UserService.login(req.body);
     res.status(HttpStatus.ACCEPTED).json({
@@ -34,9 +40,14 @@ export const register = async (req, res, next) => {
       data: data,
       message: "user login successfully "
     });
-}catch (error) {
-  next(error);
-}
+    logger.info("user login successfully ")
+  } catch (error) {
+    logger.error(error)
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
 }
 
 /**
@@ -45,7 +56,7 @@ export const register = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
- export const forgotPassword = async (req, res, next) => {
+export const forgotPassword = async (req, res, next) => {
   try {
     const data = await UserService.forgotPassword(req.body);
     res.status(HttpStatus.ACCEPTED).json({
@@ -53,9 +64,14 @@ export const register = async (req, res, next) => {
       data: data,
       message: "link to reset password sent to your email "
     });
-}catch (error) {
-  next(error);
-}
+    logger.info("ink to reset password sent to your email ")
+  } catch (error) {
+    logger.error(error)
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
 }
 
 /**
@@ -64,7 +80,7 @@ export const register = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
- export const resetPassword = async (req, res, next) => {
+export const resetPassword = async (req, res, next) => {
   try {
     const data = await UserService.resetPassword(req.body);
     res.status(HttpStatus.ACCEPTED).json({
@@ -72,7 +88,12 @@ export const register = async (req, res, next) => {
       data: data,
       message: "password updated successfully"
     });
-}catch (error) {
-  next(error);
-}
+    logger.info("password updated successfully")
+  } catch (error) {
+    logger.error(error)
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
 }
